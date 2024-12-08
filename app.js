@@ -94,12 +94,18 @@ function fetchAndLoadEvents() {
         .catch(error => console.error('Error loading events CSV:', error));
 }
 
+// Optional: Add sorting functionality for the Date column when clicked
+let sortAscending = true;  // Keep track of the sorting direction (ascending or descending)
+
 // Function to load the events data into the table
 function loadEventsTable(eventsData) {
     const tableBody = document.getElementById('eventTableBody');
 
-    // First, sort the events by the Date column (ascending order)
-    eventsData.sort((a, b) => new Date(a.Date) - new Date(b.Date));
+
+	if (sortAscending) 
+        eventsData.sort((a, b) => new Date(a.Date) - new Date(b.Date));  // Ascending order
+	else 
+        eventsData.sort((a, b) => new Date(b.Date) - new Date(a.Date));  // Descending order
 
     // Loop through the sorted events and populate the table
     eventsData.forEach(event => {
@@ -243,16 +249,7 @@ function filterTable() {
     document.getElementById('rowCount').textContent = visibleRowCount;
 }
 
-// Optional: Add sorting functionality for the Date column when clicked
-let sortAscending = true;  // Keep track of the sorting direction (ascending or descending)
-
 document.getElementById('dateHeader').addEventListener('click', () => {
-    if (sortAscending) {
-        eventsData.sort((a, b) => new Date(a.Date) - new Date(b.Date));  // Ascending order
-    } else {
-        eventsData.sort((a, b) => new Date(b.Date) - new Date(a.Date));  // Descending order
-    }
-
     // Toggle the sorting direction for next click
     sortAscending = !sortAscending;
 
