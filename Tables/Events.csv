@@ -1,0 +1,630 @@
+id;Date;title;type;Rate
+1;2016-01-28;Roundhouse presents: Gaz Coombes In the Round;1;-1
+2;2016-02-01;Roundhouse presents: Mulatu Astatke In the Round;1;-1
+3;2016-02-02;OG Maco - The Lord of Rage Tour;16;-1
+4;2016-02-03;Massive Attack UK tour ;1;-1
+5;2016-02-08;Alfa Mist in London;1;-1
+6;2016-02-10;Royce Wood Junior in London;1;-1
+7;2016-02-12;Tame Impala UK tour;1;-1
+8;2016-02-17;Rich Homie Quan in London;16;-1
+9;2016-02-18;Denzel Curry in London;16;-1
+10;2016-03-13;Maraveyas ilegal in London;1;-1
+11;2016-04-09;Soulection Showcase;2;-1
+12;2016-04-11;Muse in London;1;-1
+13;2016-04-15;Jack Garratt in London;1;-1
+14;2016-04-20;Jazz Cartier in London;16;-1
+15;2016-04-21;Paulos paulidis and the B Movies in Garage;1;-1
+16;2016-05-17;Jamie Woon at O2 Forum Kentish town;1;-1
+17;2016-05-23;Kevin Garrett in London;1;-1
+18;2016-05-25;Foivos Delivorias in London;1;-1
+19;2016-05-27;Radiohead in London;1;-1
+20;2016-05-28;Strawberry Fields festival;3;-1
+21;2016-06-11;Field Day Festival 2016;3;-1
+22;2016-06-17;Red Bull Culture Clash 2016;4;-1
+23;2016-06-18;Coldplay in London;1;5
+24;2016-07-11;Kaiser Chiefs at the London Palladium;1;-1
+25;2016-08-22;The Underachievers at the Jazz Cafe;16;-1
+26;2016-09-17;Max Pope at The Waiting Room;1;-1
+27;2016-11-01;James Blake 2016 UK & Ireland Tour;1;-1
+28;2016-11-18;Desiigner in London;16;-1
+29;2016-11-27;Katie Melua - Winter Tour with Gori Women's Choir;1;-1
+30;2016-12-16;Panos Mouzourakis and Spuros Grammenos ston STN;1;-1
+31;2016-12-17;Stavros Lantsias (ft Tyropoulos + Kalkanis + Kapilidis);1;-1
+32;2017-01-18;Rae Sremmurd - SremmLife II Tour Europe;16;-1
+33;2017-01-27;Stamatis Kraounakis & Speira Speira - 'ALL AS ONE' kiss me;1;-1
+34;2017-02-06;Singing Greece: A Tribute;1;-1
+35;2015-01-27;Pias Nites: Teleman/The Wytches/Gengahr;1;-1
+36;2015-02-06;Gaz Coombes at Queen Elizabeth Hall;1;-1
+37;2015-02-19;Ibeyi at Bush Hall;1;-1
+38;2015-02-20;Jordan Rakei at St Pancras Old Church - First UK Show;1;4
+39;2015-02-25;Pond at Electric Ballroom;1;-1
+40;2015-05-22;Nilhs Frahm at Roundhouse;1;-1
+41;2015-05-11;Paulos paulidis and the B Movies in Dingwalls;1;-1
+42;2015-05-13;Forever Pavot at Servant Jazz Quarters;1;-1
+43;2015-06-13;Michel Camilo Solo at Queen Elizabeth Hall;1;-1
+44;2015-06-16;Jay Jay Johanson at Birthdays;1;-1
+45;2015-06-25;The Gaslamp Killer experience with The Heliocentrics;1;-1
+46;2015-03-10;Noel Gallaghers High Flying Birds UK Tour;1;-1
+47;2015-09-01;Mac Demarco at Roundhouse;1;-1
+48;2015-06-06;Field Day Festival 2015;3;-1
+49;2015-10-21;Honne at Oval Space;1;-1
+50;2015-08-19;Gwilym Gold at St Pancras Old Church;1;4
+51;2015-12-02;Flo Morrissey at Bush Hall;1;-1
+52;2015-11-26;The Vaccines at Brixton academy;1;-1
+53;2015-10-09;Gaz Coombes at The Forum;1;-1
+54;2015-05-19;Django Django at Koko;1;-1
+55;2015-09-27;Forever Pavot at Servant Jazz Quarters;1;-1
+56;2015-05-23;The cinematic orchestra at Roundhouse;1;-1
+57;2015-07-01;Tunday Akintan at Purcell Room;1;-1
+58;2015-11-13;Hidden Orchestra at St. Johns Hackney;1;-1
+59;2015-06-19;Jordan Rakei at The 100 Club;1;-1
+60;2015-06-12;GoGo Penguin at Koko;1;-1
+61;2015-09-25;Dizraeli & The Small Gods - The Last EVER Show;1;-1
+62;2015-06-11;Oceaan at Courtyard Theatre;1;-1
+63;2015-11-23;The Underachievers - The Forevermore Express World Tour;16;-1
+64;2015-05-15;The Prodigy May 2015 UK tour ;1;-1
+65;2015-05-16;The Prodigy May 2015 UK tour ;1;-1
+66;2015-09-28;Steven Wilson at Royal Albert Hall;1;-1
+67;2015-04-12;Chilly Gonzales & Kaiser Quartett at Milton Court Concert Hall;1;5
+68;2015-11-07;Chilly Gonzales & Kaiser Quartett at Royal Festival Hall;1;5
+69;2015-08-05;Nero Live at Village Underground;1;-1
+70;2015-07-09;Deco Ensemble at Purcell Room;1;-1
+71;2015-11-03;U2 at O2 Arena;1;1
+72;2015-05-03;Manu Delago Handmade at Bush Hall;1;-1
+73;2015-03-08;Nu Civilisation Orchestra performs the world premiere of Polyhymnia by Yazz Ahmed;1;-1
+74;2015-04-24;Jacco Gardner at The 100 Club;1;-1
+75;2015-06-03;Jungle at Brixton academy;1;-1
+76;2015-10-17;Kwabs at Roundhouse;1;-1
+77;2015-05-01;Flying Lotus at Brixton academy;1;-1
+78;2014-01-18;The Cookie and Magic Teapot presents;1;-1
+79;2014-02-17;Royal Blood at The Musician Pub;1;4
+80;2014-03-22;Dreaming In Colour Productions present: Jitterbug Leicester;1;-1
+81;2014-03-28;Miles Kane at O2 Academy Leicester;1;-1
+82;2014-03-29;Esben and the Witch and Broken D.C. at Buffalo Bar;1;-1
+83;2014-03-29;Trap93;2;5
+84;2014-04-17;These New Puritans Expanded;1;-1
+85;2014-04-20;Surf at the Cookie Jar;1;-1
+86;2014-04-22;Childhood UK Tour;1;-1
+87;2014-05-04;Chase and Status dj set at Republic;2;-1
+88;2014-05-17;Club Milk presents: Wolf Alice + Superfood + Gengahr;1;-1
+89;2014-07-03;The Dandy Warhols at O2 Academy 1;1;-1
+90;2014-10-04;Soundcrash presents: The Gaslamp Killer;2;-1
+91;2014-11-11;The NME New Breed Tour 2014;1;-1
+92;2014-12-03;Temples at The Forum;1;-1
+93;2014-10-11;Hackney Wonderland Festival 2014;3;-1
+94;2017-03-01;Apocalyptica 'Plays Metallica By Four Cellos';1;-1
+95;2017-03-03;Paulos Paulidis - Strings & Voices;1;-1
+96;2016-04-02;Paulos Paulidis and the B Movies sto club tou Mylou;1;-1
+97;2017-03-21;Black Flower at Archspace;1;5
+98;2013-03-30;This Feeling@Leicester;1;-1
+99;2012-11-11;O.Children@Gaia Live Stage;1;-1
+100;2017-03-24;Room 29: Jarvis Cocker & Chilly Gonzales;1;-1
+101;2017-03-27;6lack at Electric Ballroom (Debut London Show);16;-1
+102;2017-03-29;D Double E at O2 Academy Islington;16;-1
+103;2017-03-30;Manu Delago Handmade at Islington Assembly Hall;1;-1
+104;2017-04-06;Tigran Hamasyan - An Ancient Observer Album Tour;1;4
+105;2017-04-06;Tory Lanez - I Told You Tour;16;3
+106;2013-11-23;Club Milk presents: Kins + Man Without Country + Kenworthy;1;-1
+107;2013-10-05;Temples at O2 Academy 2 Leicester;1;-1
+108;2017-04-28;Bruno Major Moon residency at Hoxton Squares Zigfrid Von Underbelly;1;5
+109;2017-05-13;Andrew McCormack: Graviton Album Launch;1;-1
+110;2017-05-19;Jay Jay Johanson at St Pancras Old Church;1;3
+111;2013-06-06;Jacco Gardner First UK Tour;1;-1
+112;2013-06-02;Ghostpoet The More Light Tour;1;-1
+113;2017-05-30;Eleftheria Arvanitaki in Royal Festival Hall;1;-1
+114;2017-05-31;Mac DeMarco at Brixton Academy;1;-1
+115;2017-06-02;Footsie Presents:King Original;2;-1
+116;2012-10-08;Radiohead at O2 Arena;1;-1
+117;2012-10-06;Maverick Sabre at Brixton Academy;1;-1
+118;2012-10-10;Turbowolf first ever Headline UK tour;1;-1
+119;2012-10-09;Memotone Album Launch;1;-1
+120;2017-06-09;M.I.A.'s Meltdown: Young Fathers;1;-1
+121;2017-06-10;Omar at The Jazz Cafe;1;-1
+122;2016-09-27;Sofar sounds London;1;-1
+123;2017-06-14;M.I.A.'s Meltdown: Yung Lean/Princess Nokia;16;-1
+124;2017-06-16;M.I.A.'s Meltdown: Crystal Castles;1;-1
+125;2017-06-17;M.I.A.'s Meltdown: Young M.A/Tommy Genesis;1;-1
+126;2017-06-20;DJ SEMTEX Presents ARRIVAL ft. $UICIDEBOY$ (Lil Peep + Bexey 1 track guest appearance);16;-1
+127;2017-06-12;Sofar Sounds London;1;-1
+128;2017-06-19;Sofar Sounds London;1;-1
+129;2003-11-22;Jeff Mills at Decadence;2;-1
+130;2003-10-31;Kevin Saunderson at Decadence;2;-1
+131;2003-09-12;Tiesto at Decadence;2;-1
+132;2003-09-05;Marco Bailey at Decadence;2;-1
+133;2003-08-30;Danny Howells at Decadence;2;-1
+134;2003-08-22;Armin Van Buuren at Decadence;2;5
+135;2003-08-08;Slacker at Decadence;2;5
+136;2001-10-12;Nick Warren at Decadence;2;-1
+137;2001-10-26;Sasha at Decadence;2;5
+138;2001-12-01;John Digweed at Decadence;2;-1
+139;2002-03-15;Nick Warren at Decadence;2;-1
+140;2017-07-27;Briefs: Close Encounters;8;-1
+141;2017-01-01;Komhs Enterlant - Max Frisch;7;-1
+142;2017-01-01;H Dikh Tou K. - Franz Kafka;7;-1
+143;2015-01-01;Thriller Live - Michael Jackson;6;5
+144;2015-10-07;The Phantom of the Opera;6;2
+145;2016-01-30;Close to you - Bacharach Reimagined;6;5
+146;2016-03-19;American Idiot - Green Day;6;2
+147;2016-05-01;In The Heights;6;3
+148;2016-07-12;Sunny Afternoon - The Kinks;6;5
+149;2017-01-01;An American In Paris;6;2
+150;2016-02-06;Daves Leicester Comedy Festival: The Incomplete Works of Paul F Taylor;5;-1
+151;2016-02-06;Daves Leicester Comedy Festival: Dane Baptiste - New Stuff;5;-1
+152;2016-02-13;Daves Leicester Comedy Festival: Sajeela Kershi presents Immigrant Diaries;5;-1
+153;2016-02-14;Daves Leicester Comedy Festival: Chris Washington - 90s Child;5;-1
+154;2016-10-06;Mikeius - Atzarakis - Jeremy;5;3
+155;2016-12-04;Lambros Fisfis - Des to Thetiko;5;5
+156;2017-05-29;Michael Mathioudakis and Byron Theodoropoulos;5;5
+159;2017-07-07;Tarek Yamani Trio at Kings Place;1;-1
+160;1998-09-05;Iron Maiden in Thessaloniki;1;-1
+161;2015-03-06;LEAF Concert: Modeselektor, 808 State, Kate Simko;1;-1
+162;2003-03-15;Cyberlight presents: GMS live in Thessaloniki;2;-1
+163;2002-09-21;Cyberlight presents: Lotus Omega and Earthling in Thessaloniki;2;-1
+164;2002-07-13;Dave Seaman at Decadence;2;-1
+165;2002-07-26;Jimmy Van M at Decadence;2;5
+166;2002-08-23;David Morales at Decadence;2;-1
+167;2000-08-17;David Morales at Chalkidiki;2;5
+168;2010-03-05;Datarock in Thessaloniki;1;-1
+169;2010-10-23;DJ Krush in Thessaloniki;1;-1
+170;2014-06-21;Summer Solstice 2014: Kasabian;3;-1
+171;2011-09-16;Reworks Festival 2011;3;-1
+172;2011-07-01;Main Square Festival 2011;3;5
+173;2010-08-13;Spirit of Burgas 2010;3;-1
+174;2017-09-08;Erased Tapes is ten: Kiasmos - Dawn of Midi;1;-1
+175;2017-09-09;Erased Tapes is ten: Lubomyr Melnyk;1;-1
+176;2012-11-24;Jay Jay Johanson in Gaia Live stage;1;-1
+177;2013-02-01;Andrew McCormack trio in Leicester;1;-1
+178;2012-11-22;Vagelis Stefanopoulos with Lakis Tzimkas in Bass and Nikos Psofogiorgos in drums;1;-1
+179;2017-09-16;Gods & Monsters;2;-1
+180;2017-09-29;Justice at Brixton Academy;1;-1
+181;2017-10-07;The Lie - Florian Zeller (Atheridis - Karidis - Alikaki - Kappas);7;3
+182;2014-05-02;Handmade Festival 2014;3;-1
+183;2009-07-09;Exit Festival 2009;3;-1
+184;2010-08-19;Pukkelpop 2010;3;-1
+185;2012-09-15;Warriors Dance Festival in Belgrade;3;-1
+186;2013-07-10;Exit festival 2013;3;-1
+187;2012-10-30;Freedom Trio in Blue Barrel;1;-1
+188;2012-10-31;Oleg Chaly Organ Trio in Blue Barrel;1;-1
+189;2012-11-03;The Souljazz Orchestra: Solidarity International tour, part of Thessaloniki film festival;1;-1
+190;2011-04-15;Kokolo  Afrobeat Orchestra + The Souljazz Orchestra at Block 33;1;-1
+191;2011-12-16;Hooverphonic in Principal Club Theatre;1;-1
+192;2012-09-13;Prodigy in Thessaloniki;1;5
+193;2012-09-21;Paulos Paulidis and the B-Movies in Babulwnia (Open air);1;-1
+194;2011-09-24;Paulos Paulidis and the B-Movies in Babulwnia;1;-1
+195;2011-12-15;Paulos Paulidis and the B-Movies;1;-1
+196;2009-09-11;Asian Dub Foundation in Block 33;1;-1
+197;2017-10-17;Joss Stone with Live Orchestra;1;-1
+198;2017-10-18;Hershey Felder Our Great Tchaikovsky;7;5
+199;2017-10-20;Jordan Rakei in London;1;-1
+200;2013-11-03;The Courteneers in Leicester;1;-1
+201;2012-12-21;Paulos Paulidis and the B-Movies in Principal Club Theatre (Mylos);1;-1
+202;2012-07-02;Rockwave Festival Day 3;3;-1
+203;2011-04-01;Fringe Festival of Torment Day 2: Dirty Granny Tales: Rejection;6;5
+204;2010-11-13;Blueneck line in Thessaloniki;1;-1
+205;2010-09-10;Porcupine Tree live in Thessaloniki;1;5
+206;2005-02-20;Cradle of Filth live in Thessaloniki;1;-1
+207;2013-02-19;Delphic in Leicester;1;-1
+208;2017-10-28;The Toxic Avenger: The Musical;6;3
+209;2017-10-29;West End Bares: Ruby Strippers;8;2
+210;2017-04-29;Sound Unbound: Chilly Gonsales: Young-ish Persons Guide to the Orchestra with Britten Sinfonia;3;-1
+211;2017-11-04;42nd Street;6;4
+212;2017-11-12;Giorgos Xatzipaulou - Sxedon Saranta;5;4
+213;2017-11-16;Rwsiki Epanastash;7;-1
+214;2017-11-24;Blaenavon at Shepherds Bush Empire;1;4
+215;2017-11-25;Oscar Wilde Season: A Woman of No Importance (starring Eve Best);7;-1
+216;2017-12-01;ENO: Marnie (Nico Muhly);10;-1
+217;2017-06-23;Psycho;11;-1
+218;2014-01-03;Pirates of the Caribbean - The Curse of the Black Pearl;11;-1
+219;2016-03-18;Brief Encounter;11;-1
+220;2016-07-03;Psycho;11;5
+221;2016-10-02;2001: A Space Odyssey;11;-1
+222;2016-11-27;North By Northwest;11;4
+223;2017-12-05;Saint Jhn Debut Gig in Ldn;16;-1
+224;2017-12-06;LA SOIREE Hits Londons West End;8;3
+225;2017-12-09;The Grinning Man;6;5
+226;2017-12-12;Tom Chaplin at Southbank Centre;1;4
+227;2017-12-17;42nd Street;6;4
+228;2017-12-31;Young Marx;7;4
+229;2017-12-31;Young Frankenstein;6;2
+230;2017-09-16;WDR Symphony Orchestra Cologne: Martin Grubinger;9;-1
+231;2013-09-21;Paulos Paulidis and B-Movies;1;-1
+232;2013-02-25;The Enemy at Leicester;1;-1
+233;2016-11-02;Amadeus (by Peter Shaffer) [National Theatre];7;3
+234;2018-01-10;Strangers In Between;7;3
+235;2018-01-13;The Excorcist;7;4
+236;2018-01-14;Five Guys Named Moe (Louis Jordan);6;3
+237;2018-01-17;School of Rock The Musical;6;5
+238;2018-01-20;Bananaman;6;1
+239;2018-01-24;Eugenius! The Eunique new Musical;6;3
+240;2018-01-26;Alkinoos Ioannidis at Union Chapel;1;3
+241;2018-01-27;The Rat Pack - Live from Las Vegas;17;4
+242;2012-08-24;Reading Festival 2012;3;5
+243;2018-01-30;Dionysis Savvopoulos with Katerina Polemi at Union Chapel;1;5
+244;2018-01-31;Wicked The Musical;6;1
+245;2018-02-04;Misery;7;3
+246;2018-02-05;H Gunaika me ta Maura (Woman In Black);7;4
+247;2018-02-07;H Agriopapia;7;2
+248;2018-02-08;Cabaret;6;1
+249;2018-02-10;Foivos Delivorias - Marina Satti and Fones - FLEA MARKET;1;4
+250;2002-04-13;Juan Atkins at Art House;2;3
+251;2000-07-22;Jose Padilla;2;3
+252;2018-02-14;Nick Hakim + Jamie Isaac;1;2
+253;2008-03-11;Delinquent Habits + Komhs X at Eightball;16;-1
+254;2012-11-17;Alitiz (+Simoria) 1st Tour;16;4
+255;2003-12-24;GMS in Thessaloniki;2;-1
+257;2005-03-12;Gms in Thessaloniki;2;-1
+258;2018-02-17;SASHA: RE-FRACTED LIVE at the Roundhouse;1;2
+259;2014-08-15;Ctrl Sound x Bass:one Summer Party;2;3
+260;2018-02-23;Benefit Gig for Ricky Ricketts;1;4
+261;2000-09-08;Electron Festival 2000;3;5
+262;2018-02-24;Girl From the North Country (Bob Dylan);6;3
+263;2008-12-10;Supergrass in London;1;5
+264;2008-12-11;Kooks in London;1;3
+265;2008-12-14;Fratellis in London;1;3
+266;2006-06-02;Hooverphonic in Thessaloniki;1;5
+267;2002-06-28;Cyberlight presents: Goa Gil in Thessaloniki;2;-1
+268;2002-08-31;Goa Gil in Thessaloniki;2;-1
+269;2003-09-06;Cyberlight presents: Goa Gil in Thessaloniki;2;-1
+270;2002-06-22;Jan Carbon in Decadence;2;4
+271;2012-10-20;The Killimanharo Darkjazz Ensemble European Tour;1;1
+272;2012-03-31;Artemis Euthinhs Full Live Band Show;16;3
+273;2018-02-28;SJM Concerts Presents Gaz Coombes Plus Tom Williams;1;3
+274;2006-11-30;Kaiser Chiefs in Thessaloniki;1;5
+275;2010-10-15;Free The Robots in Thessaloniki ;2;-1
+276;2010-04-10;Borgore in Thessaloniki;2;4
+277;2009-09-18;Crippled Black Phoenix + Maybeshewill in Thessaloniki;1;4
+278;2009-09-03;Murder by Death in Thessaloniki;1;-1
+279;2010-09-24;Cookie Monsta in Thessaloniki;2;-1
+280;2010-09-11;101% Dubstep: Episode 1: Digital Mystikz;2;-1
+281;2010-10-16;Funtcase in Thessaloniki;2;-1
+282;2010-01-09;Dirty Bulldogs in Thessaloniki;2;5
+283;2011-03-11;Emalkay in Thessaloniki;2;-1
+284;2010-01-23;Paulos Paulidis and the B-Movies in Thessaloniki;1;5
+285;2009-04-02;Dirty Granny Tales: Didis Son;6;5
+286;2006-07-14;Dance Valley Festival 2006;3;-1
+287;2005-07-23;Sasha DJ Set;2;-1
+288;2005-08-07;Ozgur Can DJ Set;2;-1
+289;2005-07-09;Dave Seaman DJ Set;2;-1
+290;2005-06-25;Rockwave Festival;3;-1
+291;2006-11-04;Active Member in Thessaloniki;16;-1
+292;2002-09-06;Thessaloniki Energy Dance Festival;3;-1
+293;2018-03-10;Pippin;6;2
+294;2011-05-14;Asian Dub Foundation in Thessaloniki;1;-1
+295;2010-05-08;The Dandelions;1;-1
+296;2010-02-18;Matisse - The Rock n Roll Mafia tour;1;-1
+297;2009-11-16;Jeniferever in Thessaloniki;1;-1
+298;2009-04-07;2L8 Presenting Live their new album HE & SHE;1;-1
+299;2007-02-07;One Self - The Children of Possibility Tour;2;5
+300;2008-10-11;Schranz Techno Opening Party;2;-1
+301;2008-04-05;Chicane Line in Thessaloniki;1;-1
+302;2008-12-02;Modrec - Art Naive tiny tour 08;1;-1
+303;2009-05-16;Ska-P First time in Greece;1;-1
+304;2009-12-27;63 High in Thessaloni;1;-1
+305;2012-05-20;7Ply Project - Skateboard art & Culture festival;3;-1
+306;2005-07-16;Markus Schulz in Venue Dancestage;2;-1
+307;2015-03-15;Thanasis Papakonstantinou European Tour 2015;1;-1
+308;2011-08-31;Thermis Drwmena 2011: Thanasis Papakonstantinou ;1;-1
+309;2010-11-26;Wax Tailor + Guts in Thessaloniki;1;-1
+310;2010-09-17;Prodigy: Invaders Must Die Tour;1;-1
+311;2010-09-18;Prodigy: Invaders Must Die Tour;1;-1
+313;2010-06-04;Pendulum special soundsystem feat. El Hornet & MC Jakes;2;-1
+314;2010-03-19;The Subways in Thessaloniki;1;-1
+315;2010-01-22;Rosebleed Live - White Balloons Tour;1;-1
+316;2009-12-04;Deejay Vadim Full Live Band;1;-1
+317;2009-11-21;Easy Star All-Stars live in Thessaloniki;1;-1
+318;2012-12-24;Koukla Se Vitrina at Kaka;12;-1
+319;2012-12-31;Koukla Se Vitrina at Kaka;12;-1
+320;2010-11-27;Hip Hop Live at Polutexneio;16;-1
+321;2011-04-06;Loud Sound: Motorama + Electric Litany;1;-1
+322;2012-01-26;Oti Pio Polu Potheis;7;-1
+323;2010-03-20;Don Zouan;7;-1
+324;2018-03-14;Waka Flocka Flame in London;16;3
+325;2018-03-16;Paulos Paulidis and the B-Movies in London;1;5
+326;2009-10-24;Caesars in Block 33;1;-1
+327;2008-10-30;Parov Stelar Band live in Thessaloniki;1;-1
+328;2008-05-03;Cyberians Present: Infected Mushroom in Thessaloniki ;1;-1
+329;2009-11-07;Belleruche in Thessaloniki;1;-1
+330;2009-04-11;Groundation in Thessaloniki;1;-1
+331;2010-06-03;Ninja Tune Showcase: Bonobo Live + Mr Scruff 5 Hours Set;1;4
+332;2011-04-11;Zagar Live + DJ Bootsie Live Quartet;1;-1
+333;2008-12-12;The Prodigy: The Invaders Academy Tour;1;5
+334;2005-10-08;The Prodigy: Their Law The Singles 1990-2005 Tour;1;5
+335;2010-06-11;Balkan Party: Shantel Bucovina Club Orchestra + Cabaret Balkan + Dimitris Starovas;1;-1
+336;2012-05-19;Hardgroove Quartet Live;1;-1
+337;2003-04-26;Astrix + Hux Flux + Dj Skazi + Atomic Pulse;2;-1
+338;2010-10-31;Dimitria 45: Count Basie Orchestra in Thessaloniki;1;-1
+339;2012-04-28;Caspa in Block 33;2;-1
+340;2007-10-04;Muse: Black Holes and Revelations Tour;1;-1
+341;2018-03-22;Mulatu Astatke at Barbican;1;3
+342;2004-08-13;Rush + Umek + V.Kanzyani;2;-1
+343;2004-07-28;John Digweed at Cavo Paradiso;2;-1
+344;2004-11-10;Kratiko Wdeio: Stepits konstantinidou;13;3
+345;2004-11-24;Kratiko Wdeio: Georgiadis - Savvidou;13;1
+346;2004-12-01;Kratiko Wdeio: Dimopoulos - Dimopoulos;13;3
+347;2004-12-15;Kratiko Wdeio: Delfinopoulos - Zafranas;13;1
+348;2005-01-12;Kratiko Wdeio: Ex Silentio;13;4
+349;2005-03-23;Kratiko Wdeio: Tasopoulos;13;3
+350;2005-04-08;Kratiko Wdeio: Liakopoulou;13;3
+351;2005-04-06;Kratiko Wdeio: Rudof Koelman;13;3
+352;2005-03-06;Dresdner Philharmonie;9;-1
+353;2018-03-26;Orchestra of the Age of Enlightenment: Bach - St Matthew Passion;9;3
+354;2010-03-26;Krak in Dub feat MC Troy in Thessaloniki;2;-1
+355;2003-08-29;M.A.S Collective in Thessaloniki;1;-1
+356;2012-10-05;DUB POLICE 4th Anniversary / Birthday @ FABRICLIVE;2;-1
+357;2014-08-15;Big Ups and Ought at the OId Blue Last;1;-1
+358;2018-03-30;All Or Nothing The Mod Musical (Small Faces);6;3
+359;2018-03-31;Thorpe Park Resort - An Island Like No Other;14;0
+360;2008-12-13;The Prodigy: The Invaders Academy Tour;1;5
+361;2018-04-03;Motown The Musical;6;3
+362;2018-04-04;Oscar Wilde Season: Lady Windermeres Fan;7;3
+363;2004-10-01;The Prodigy - AONO Tour;1;5
+364;2005-12-01;The Prodigy: Their Law The Singles 1990-2005 Tour;1;5
+365;2005-11-29;The Prodigy: Their Law The Singles 1990-2005 Tour;1;5
+366;2007-07-12;Exit Festival 2007;3;5
+367;2015-12-04;The Prodigy - The Day is my Enemy;1;5
+368;2015-04-29;Philip Glass: Piano Etudes at Barbican;13;0
+369;2018-04-13;Oscar Wilde Season: The Selfish Giant (Guy Chambers);6;4
+370;2018-04-14;Bach Weekend 2018: The Brandenburg Concertos (Feinstein Ensemble);13;3
+371;2018-04-14;Bach Weekend 2018: Homage to Switched-On Bach (Bach performed in multiple synthesisers);13;2
+372;2012-06-29;15o antiratsistiko festival koinwnikhs allhleggihs;3;-1
+373;2013-08-04;15o Festival Oreinh Xalkidiki - Varvara;3;-1
+374;2018-04-18;Hooverphonic in London;1;4
+375;2018-04-20;Ghostemane Euro Tour April 2018;16;4
+376;2018-04-21;Quiz (Play by James Graham);7;5
+377;2016-01-01;Epikindunes Sxeseis (Sonterlo nte Laklo);7;2
+378;2015-01-01;The Curious Incident of the Dog in the Night-Time;7;4
+379;2016-06-21;Soul (A Play by Roy Williams);7;3
+380;2013-10-26;Sky Bet Championship: Leicester City FC vs Bournemouth AFC (2-1);15;-1
+381;2014-04-04;Sky Bet Championship: Leicester City FC vs Sheffield Wednesday FC (2-1);15;-1
+382;2018-05-05;Absolute Hell (by Rodney Ackland) [National Theatre];7;2
+383;2018-05-09;Bruno Major UK & Ireland Spring 2018 Tour;1;4
+384;2018-05-15;Tamino live in Electrowerkz;1;5
+385;2018-05-17;Sohn live in Roundhouse;1;3
+386;2018-05-21;The Best Man;7;4
+387;2018-05-23;Gaz Coombes in London Palladium;1;3
+388;2018-05-19;Nightfall;7;3
+389;2018-06-02;Consent (by Nina Raine);7;3
+390;2018-06-02;Tigran Hamasyan;1;5
+391;2018-06-09;Ruthless! The Musical;6;4
+392;2018-06-09;Kinky Boots;6;3
+393;2012-09-20;Agria Monaksia (Martin Mc Donagh) (Perros) ;7;3
+394;2016-06-01;1984 by George Orwell;7;3
+395;2018-06-16;Mood Music;7;3
+396;2018-06-19;Robert Smith Meltdown: Vex Red + Douglas Dare;1;3
+397;2018-06-27;Agam in London;1;3
+398;2018-06-30;The Moderate Soprano;7;4
+399;2018-07-07;It Happened in Key West;6;2
+400;2018-07-07;A Monster Calls;7;3
+401;2018-08-04;Knights Of The Rose;6;2
+402;2018-08-04;Allelujah!;7;4
+403;2018-08-25;The King and I;6;2
+404;2018-09-08;The Importance of Being Earnest;7;3
+405;2018-09-12;Tamino in London;1;5
+406;2018-09-16;Yaron Herman Trio in London;1;4
+407;2018-09-10;Chilly Gonzales in London;1;5
+408;2018-09-21;Moses Sumney in London;1;3
+409;2018-09-26;Get Loud: katie Melua acoustic;1;4
+410;2018-09-29;Dreamgirls;6;3
+411;2018-10-07;Art (Yasmina Reza) (Atheridis, Kourkoulos, Purpasopoulos);7;4
+412;2018-10-14;The Comedy About A Bank Robbery;7;3
+413;2018-10-14;Desiigner - OverSeas Tour;1;3
+414;2018-10-15;Joep Beving in London;1;4
+415;2018-10-17;Jorja Smith in London;1;3
+416;2018-10-27;The Height Of The Storm - Florian Zeller;7;5
+417;2018-10-29;Yellow Days UK Tour;1;4
+418;2018-11-10;Switzerland;7;4
+419;2018-12-01;Mozart Requiem (Hugo Ticciati, O/Modernt, Signum Quartet, VOCES8 & soloists);9;4
+420;2018-12-04;Bruno Major at KOKO;1;5
+421;2018-12-08;Katie Melua with Gori Womens Choir live at Westminster Central Hall;1;4
+422;2018-12-15;The Wider Earth;7;2
+423;2018-12-20;King 810 in London;1;5
+424;2018-12-22;A Very Very Very Dark Matter (Martin Mcdonagh);7;3
+425;2018-12-29;Summer and Smoke (Tennessee Williams);7;3
+426;2018-12-30;A Christmas Carol (Charles Dickens);7;5
+427;2019-02-21;Clarence Clarity in London;1;4
+428;2019-02-23;Songs for Nobodies;6;2
+429;2019-03-11;Admissions;7;4
+430;2019-03-16;The American Clock;7;3
+431;2019-03-14;Eliza - A Real Romantic Tour;1;3
+432;2019-04-18;James Blake - Assume Form Tour;1;4
+433;2019-04-19;Devlin- The Outcast Tour;1;3
+434;2019-04-20;The Twilight Zone;7;2
+435;2019-04-22;Nigel Slater Toast;7;4
+436;2019-05-10;Baildsa and Balothizer in London;1;4
+437;2019-05-17;Top of The Alcopops!;1;4
+438;2019-05-11;Emilia;7;2
+439;2019-06-02;A dog called Friki;7;4
+440;2019-06-05;Crime and Punishment;7;5
+441;2019-06-22;Sweat;7;3
+442;2019-06-08;Field Day 2019;3;4
+443;2019-06-29;The Starry Messenger;7;3
+444;2019-08-04;On Your Feet! The Story of Emilio and Gloria Estefan;6;3
+445;2019-08-24;The Night of the Iguana (by Tennessee Williams);7;2
+446;2019-08-30;JMSN live in Village Underground;1;3
+447;2019-08-31;Equus (by Peter Shaffer);7;2
+448;2019-09-07;The Son (by Florian Zeller);7;5
+449;2019-09-17;Prakti Why Dont You Speak;1;3
+450;2019-09-21;Zangoora;6;2
+451;2019-09-28;Preludes (Sergei Rachmaninoff);6;1
+452;2019-11-02;Ghost Stories;7;3
+453;2019-11-08;Acid Arab - Jdid Album Launch;1;3
+454;2019-11-09;A Day In The Death Of Joe Egg;7;3
+455;2019-11-13;Impericon Never Say Die! Tour;1;4
+456;2019-11-18;Sabrina Claudio - Truth Is Tour;1;3
+457;2019-11-21;EFG London Jazz Festival: Faraj Suleiman Quintet;1;5
+458;2019-11-28;Chistian Loffler in London;1;2
+459;2019-12-09;Emika in London;1;4
+460;2019-12-21;A Taste of Honey (by Shelagh Delaney);7;3
+461;2020-01-29;Bruno Major  - UK and Europe 2020;1;4
+462;2020-02-01;Poet In Da Corner;6;3
+463;2021-08-14;Bach & Sons (Play by Nina Raine, Directed by Nicholas Hytner);7;5
+464;2021-08-21;Oleanna (by David Mamet Directed by Lucy Bailey, Jonathan Slinger, Rosie Sheehy);7;4
+465;2021-10-08;Acid Arab Live;1;2
+466;2021-10-16;INDECENT (Paula Vogel - Rebecca Taichman);7;4
+467;2021-11-19;McBaise (first gig since the release of TUBES) & Muthi (playing debut album VISIONS in full);1;5
+468;2021-12-03;The Woman in Black (Susan Hill);7;4
+469;2022-02-09;Tina - The Tina Turner Musical;6;5
+470;2022-03-26;10 Years of Local Action;2;2
+471;2022-04-02;Get Up, Stand Up! The Bob Marley Musical;6;4
+472;2022-04-09;THE 47TH (A Play by Mike Bartlett);7;3
+473;2022-04-10;Kurupt FM - The Greatest Hits Arena * Tour;1;4
+474;2022-04-16;Crux - 8th birthday event;1;3
+475;2022-04-28;James Blake Solo Piano;1;4
+476;2022-05-19;Philharmonia Orchestra, conductor: Marin Alsop, violin: Arabella Steinbacher [] Jessie Montgomery: Strum, Britten: Violin Concerto, Shostakovich: Symphony No.5 in D minor;9;4
+477;2022-06-29;That Is Not Who I Am (By Dave Davidson);7;3
+478;2022-06-30;Jitney (By August Wilson);7;2
+479;2018-11-14;The Prodigy - Tour 2018;1;0
+480;2018-11-05;The Prodigy - Tour 2018;1;0
+481;2002-07-06;Deep Dish at Decadence;2;0
+482;2022-08-27;Hard Of Hearing August Bank Holiday Weekender DAY 2;1;2
+483;2022-08-13;The Southbury Child (By Stephen Beresford);7;0
+484;2022-08-31;404 Guild residency, the final night - Otta, 404 Guild, Boss;1;0
+485;2022-09-16;Teebs x LCO;1;2
+486;2022-09-17;Homeshake UK/EU tour;1;4
+487;2022-10-15;John Gabriel Borkman (by Henrik Ibsen);7;3
+488;2022-10-22;Talley's Folly (by Lanford Wilson);7;4
+489;2022-10-29;Something in the Air (by Peter Gill);7;2
+490;2022-11-06;English Chamber Orchestra - Serenades for Strings (Craig Ogden guitar, Stephanie Gonley director) ;9;5
+491;2022-11-11;Jazz Voice Festival Opening Gala (Part of EFG London Jazz Festival);1;3
+492;2022-11-12;Brandenburg Fest - Royal Holloway Chapel Choir;9;5
+493;2022-11-05;Peaky Blinders: The Redemption of Thomas Shelby;19;4
+494;2022-11-24;Tamino live at Koko;1;4
+495;2022-12-02;Wickies: The Vanishing Men Of Eilean Mor;7;4
+496;2022-12-15;Hemai Live EP Listening Party;1;2
+497;2021-xx-xx;H dolofonia tou Mara by Peter Weiss;7;1
+498;2004-07-24;Deep Dish@Chalkidiki (Support Nic Fanciulli);2;0
+499;2002-08-15;Maurice Fulton (support DJ Ado);2;0
+500;2011-03-11;Berliner Philharmoniker | Bernard Haitink Conductor [] Anton Bruckner - Symphony No. 5 in B flat major;9;0
+501;2013-04-26;Philharmonia Orchestra | Kazuki Yamada conductor , Vadim Repin violin [] LISZT Les Preludes | BRUCH Violin Concerto No. 1 | BERLIOZ Symphonie fantastique;9;0
+502;2013-10-16;Philharmonia Orchestra | Vladimir Ashkenazy conductor , Patricia Kopatchinskaja violin [] Shostakovich, Festive Overture | Stravinsky, Violin Concerto | Tchaikovsky, Manfred Symphony;9;0
+503;2013-11-06;Philharmonia Orchestra | Nicholas Collon conductor , Francesco Piemontesi piano [] BEETHOVEN Overture, Leonore, No. 1 | BEETHOVEN Piano Concerto No. 2 | DVORÁK Symphony No. 8 in G;1;0
+504;2012-00-00;O filakismenos ths diplanhs portas | Neil Simon | Baltinos, Lexou;7;2
+505;2022-12-27;A Cristmas Carol (Charles Dickens | Directed by Nicholas Hytner);7;1
+506;2023-01-14;Witness for the prosecution | Agatha Christie;7;5
+507;2023-01-19;Yannis Kotsiras live at Union Chapel;1;3
+508;2023-02-02;Charlie & Stan;7;3
+509;2023-02-05;Manu Delago – Environ Me Live | Bush Hall;1;3
+510;2023-02-07;Passion | Tom Dalrymple & Nadav Burstein;7;4
+511;2023-02-11;Best of Enemies | James Graham | Zachary Quinto David Harewood;7;5
+512;2023-02-18;Bell, Book and Candle | By John Van Druten, Directed by Mark Giesser;7;4
+513;2023-02-19;Röyksopp TrueElectric EU Tour 2023 | Troxy;1;3
+514;2023-02-23;Dirty Dancing;6;2
+516;2023-02-25;London Philharmonic Orchestra | From Paris with Love [] Ravel: Pavane pour une infante défunte, Chausson: Poème de l'amour et de la mer, Op.19, Franck: Symphony in D minor;9;0
+517;2023-02-26;Royal Philharmonic Orchestra | Elizabeth Sombart plays Mozart [] Mozart Symphony No. 35 (‘Haffner’), Mozart Piano Concerto No. 20 in D minor, Mozart Piano Concerto No. 21 in C major;9;4
+518;2023-03-01;Jersey Boys | Frankie Valli and the Four Seasons;6;4
+519;2023-03-02;London Symphony Orchestra [] J S Bach arr Luciano Berio Contrapunctus XIX | Alban Berg Violin Concerto | Joseph Haydn Symphony No 44 (Trauer) | Claude Vivier Lonely Child;9;0
+520;2023-03-04;Windfall by Scooter Pietsch;7;3
+521;2023-03-08;in her words: Madison Cunningham, TYSON, Tawiah + more;1;4
+522;2023-03-09;Tamino - European Tour 2023;1;0
+523;2023-03-10;SC&P LIVE: Filmmaker + Erex + TSUNIMAN + Harry James;2;0
+524;2023-03-18;Under The Black Rock;7;3
+525;2023-03-30;Liza Pulman & Joe Stilgoe - A Couple Of Swells;1;4
+526;2023-03-31;TTT MOT: CS + Kreme (Live), Memotone (Live), Han (Live), Will Bankhead;1;2
+527;2023-04-03;Friends Serene: Margomool / Frank Malachi / Bella Unwin;1;0
+528;2023-04-08;Friends serene: Sunken, nudista, Terra Twin, Joseph Futak and Sister Lucy;1;0
+529;2023-04-22;Jules and Jim by Timberlake Wertenbaker. [] Based on the novel by Henri-Pierre Roche. Directed by Stella Powell-Jones;7;4
+530;2023-04-22;Trumpets and Raspberries by Dario Fo;7;4
+531;2023-04-29;Further than the Furthest Thing, Written by Zinnie Harris, Directed by Jennifer Tang;7;0
+532;2023-04-29;Gaz Coombes - Turn the car around UK/IRELAND April 2023. Support by LoneLady;1;0
+533;2023-05-06;5 Short Plays Loosely Linked By The Theme Of Crime. Witten by Charles Edward Pipe;7;4
+534;2023-05-26;Project 6 Festival;3;0
+535;2023-05-28;Live At The Palace - Groove Armada | with Dave Lee, Ashley Beedle, RAW SILK, louhayter ;1;5
+536;2023-06-07;Soft Cell | Hampton Court Palace Festival 2023;1;1
+537;2023-06-15;Accidental Death of an Anarchist [] Written by Dario Fo and Franca Rame. Adaptation by Tom Basden. Directed by Daniel Raggett.;7;4
+538;2023-08-19;Livia Rita: Dystopia Wetlands At Southbank Centre;1;2
+539;2023-08-20;Cloud X Festival 2023;3;0
+540;2023-08-26;We Are FSTVL 2023;3;0
+541;2023-09-02;Lex live at London w/ Dof Twogee & Squeezy Anks (Guests: VLOSPA, ΣΑΝΤΑΜ);1;0
+542;2023-09-10;Boogietown 2023;3;0
+543;2023-09-12;Ben Portsmouth: This Is Elvis;17;4
+544;2023-09-16;One Out Festival 2023;3;0
+545;2023-09-19;Legend: The Music Of Bob Marley;17;4
+546;2023-09-23;The Father and the Assassin (by Anupama Chandrasekhar) [National Theatre];7;5
+547;2023-09-26;The Standard Short Long Drop (With Per Carminger & Kevin Wathen, Directed by Natasha Rickman, Written by Rachel Garnet);7;3
+548;2023-09-28;In Other Words (By Matthew Seager, Directed by Andy Routledge);7;5
+549;2012-00-00;I Will Survive (του Γιάννη Σαρακατσάνη, Με τους Γιώργο Παπαγεωργίου και Αντίνοο Αλμπάνη);7;4
+550;2023-10-07;Enigma Variations (by Éric-Emmanuel Schmitt) (Γιάννης Μπέζος, Πυγμαλίων Δαδακαρίδης, Σωτήρης Τσαφούλιας);7;3
+551;2023-10-17;The Barricade Boys;6;4
+552;2023-10-20;Death Of England: Closing Time [] A Play by Clint Dyer and Roy Williams with Clint Dyer and Roy Williams;7;2
+553;2023-10-21;Sinatra: RAW Written & Perform By Richard Shelton;17;5
+554;2023-10-21;Ripper [] Writer: Jacob Marx Rice Director: Victoria Hadel;7;2
+555;2023-10-25;Pick of the fringe solo shows: The Quality of Mercy [] Writer: Edwin Flay Producer: Sarah Lawrie for Nailed Productions [r] "The Quality of Mercy" stands as a compelling piece of investigative theatre, delving deeply into the psyche of Britain's most prolific serial killer. Despite the inherent challenges of a solo play, the production skillfully navigates through a dramatic journey, providing profound insights into the mind of Dr. Harold Shipman. Edwin Flay's deep connection with Harold Shipman himself adds an extra layer of uniqueness to the performance. An absolute gem, a gripping experience, there's simply no excuse to overlook this masterpiece of pure art.;7;5;17
+556;2023-10-27;The Confessions by Alexander Zeldin;7;4
+557;2023-10-31;Pick of the fringe solo shows: The Devil's Passion [] Written & performed by Justin Butcher;7;1;13
+558;2023-11-01;A View From The Bridge [] by Arthur Miller Starring Jonathan Slinger and Nancy Crane;7;5;19.5
+559;2023-11-02;Arjuna Oakes Debut London performance;1;5
+560;2023-11-08;Derren Brown's Unbelievable;18;2
+561;2023-11-09;Private Lives [] by Noel Coward Starring Nigel Havers and Patricia Hodge;7;4
+562;2023-11-11;Quiz: The Coughing Major Millionaire Scandal [] by James Graham starring Rory Bremner;7;4
+563;2023-11-14;Radio GaGa | The Ultimate Celebration of Queen;17;4
+564;2023-11-18;Ozric Tentacles and Gong UK Tour 2023;1;1;31.85
+565;2023-11-22;The Drifters Girl;6;2
+566;2023-11-24;The Prodigy - Army Of The Ants UK Tour November 2023;1;5
+567;2023-11-25;Stephen Sondheim's Old Friends;6;5;41.35
+568;2023-11-26;Bernie Dieter's Club Kabarett;8;4;21.85
+569;2023-11-27;Jay Verma: 'River Full of Donations' EP Release;1;5
+570;2023-11-28;‘Japanese Postcards’ Concert - Rieko Makita;13;2
+571;2023-11-28;Ellie Harris Full Band Headline Show;1;5;25.54
+572;2023-11-30;Guys & Dolls: A Musical Fable Of Broadway [] Based on the story and characters by Damon Runyon, Music and lyrics by Frank Loesser, Book by Jo Swerling and Abe Burrows [r] The Bridge Theatre boldly explores dynamic staging in its rendition of the classic Guys and Dolls. While many found the unconventional approach effective, we hold a slightly divergent view, finding the continuously moving crowd somewhat distracting. Nevertheless, the musical succeeds in delivering the anticipated energy inherent in such a classic production. Notably, Daniel Mays shines as Nathan Detroit, delivering a truly outstanding performance that deserves special recognition.;6;4
+573;2023-12-01;Cloud Gate Dance Theatre of Taiwan Lunar Halo;19;1;28
+574;2023-12-02;Benet McLean Quintet - album launch;1;4
+575;2023-12-03;The Choir of Man [] Produced by Immersive Everywhere, Nic Doodson, Andrew Kay, Wendy & Andy Barnes and AK Theatricals. [r] The Choir of Man fulfills its promise as a boozy jukebox musical. Backed by convincing staging, a gifted cast, and a diverse selection of songs spanning various genres and eras, it endeavors to underscore the significance of pub culture as an integral part of British life. While successful in entertaining the audience, at times, it seems to strain in its efforts to convey its message, overshadowing the otherwise enjoyable experience.;6;3
+576;2023-12-03;Bach Christmas Oratorio 4-6;9;4
+577;2023-12-03;Aurora Dee Raynes Live;1;3
+578;2023-12-04;Crazy For You [] Music by Gershwin Starring Charlie Stemp and Carly Anderson [r] Embark on a nostalgic journey with this feel-good musical, radiating a charming retro aura that pays a sincere tribute to the timeless appeal of classic American musicals. While it flirts with being characterized as cheesy and dated, this production is tailored for those who appreciate the enduring charm of musical standards featuring music by the unparalleled maestro, George Gershwin. Filled with numerous tap dancing scenes, skillfully led by the exceptionally talented Charlie Stemp, it stands as a heartfelt love letter to the golden era of musical brilliance. However, if you're seeking something avant-garde and innovative, your quest for freshness may find a more suitable destination elsewhere. ;6;4
+579;2023-12-05;The Rat Pack - Swingin’ Christmas At The Sands;6;5
+580;2023-12-13;The House With Chicken Legs;7;2
+581;2023-12-17;Reuben Kaye: The Butch Is Back;8;4;6
+582;2023-12-23;Infinite Life by Annie Baker;7;3
+583;2023-12-23; Charles Bukowski: LIFE WITH A LITTLE "L", Directed and Adapted by Anya Viller;7;2;15.8
+584;2023-12-29;Piccadilly Stand-Up Club at the The Coach House [] Acts: Jeff Innocent, Peter Jones, Denis Len, Monica Hsueh, Matt Rouse;5;3
+585;2023-12-31;NYE Basement Bash;2;1;11.85
+586;2024-01-04;Dear England [] by James Graham [r] Living beneath the Parthenon or the pyramids poses a formidable challenge—shouldering an immense weight. That's football for England, the country's own game. In James Graham's latest play, "Dear England," the narrative unfolds with compelling scenes that leave a lasting impact. During football squad preparation, Gareth Southgate explains, "Under fear, you make the worst decisions. Do whatever you decided during practice. Ignore the crowd, ignore the opponent keeper. Stick to your decision." Graham skillfully crafts a play that transcends the boundaries of football fandom, making it accessible and enjoyable for those not fascinated with the sport. However, for true football enthusiasts, the emotional impact is profound, as the play resonates with the passion and intensity that define the beautiful game. Highly recommended!;7;4;38
+587;2024-01-08;This Much I Know By Jonathan Spector;7;3;13
+588;2024-01-14;«Κάποιος να με προσέχει» του Frank McGuinness [] Αντίνοος Αλμπάνης, Σωτήρης Σκάντζικας, Δημήτρης Παπαγεωργίου;7;1
+589;2024-01-16;«Play it again, Sam (Ωραίος & Σέξι)» by Woody Allen [] Ανθούλα Αηδώνη, Γιάννης Μαυρόπουλος, Ιωάννης Καμπούρης, Βικτώρια Παπαδοπούλου Σισκοπούλου, Κωνσταντίνος Τσώνης;7;3
+590;2024-01-24;Kin [] [r] Amit Lahav's "Ķīn" endeavors to convey migration-inspired stories through a wordless visual narrative, achieving visual excellence. The absence of a clear and engaging storyline, however, proves somewhat disappointing. The emotional depth of the stories remains a highlight, offering relevant insights into the complexities of migration experiences. The seamless blending of a fitting musical soundtrack adds to the overall experience. Despite its academic appeal, the performance might not fully captivate all audiences though. From us it's a 3 out of 5 stars.;19;3
+591;2024-01-27;Nirvana UK;17;4;21.85
+592;2024-02-03;Bronco Billy The Musical [] A rollicking new musical comedy based on the original Clint Eastwood motion picture;6;3
+593;2024-02-03;Metamorphosis [] By Franz Kafka. Adapted by Lemn Sissay OBE. Directed by Scott Graham.;7;2;21.85
+594;2024-02-06;Sleuth []  By Anthony Shaffer with Todd Boyce and Neil McDermott [r] Sleuth follows the intense rivalry between two men, leading to a series of mind games and twists as they compete for dominance. After witnessing several renditions of the play, our anticipation is consistently elevated when attending a new production. Remarkably, this rendition succeeds in encapsulating the essence of this iconic play. A psychological thriller, brimming with suspense, sharp dialogue, and surprising turns, ensuring viewers remain thoroughly engaged. The production is polished, boasting impressive staging, professional performances, offering an enriching evening of theater.;7;4
+595;2024-02-07;When You Pass Over My Tomb [] Written by Sergio Blanco Adapted and Directed by Daniel Goldman;7;2;13
+596;2024-02-09;Ellen Kent: Carmen (Bizet);10;4
+597;2024-02-10;Frank Sinatra's Songs for Swingin' Lovers! [] Stephen Triffitt as Frank Sinatra, Toby Cruse conductor, Manhattan Swing Orchestra;17;5
+598;2024-02-13;Ruby Carr: eBae [] [r] Ruby Carr's eBae is a really fun hour, thematically focused on the peculiar and fascinating world of eBay, with high levels of energy and an honest first-person narrative. The show promises a greatly entertaining evening of comedy, offering a humorous exploration of the unique and often quirky aspects of the online marketplace subcultures.;5;4
+599;2024-02-16;Dear Octopus [] By Dodie Smith [r] Dear Octopus, a revival of Dodie Smith’s play, explores themes of family, growing up, and returning home. The brilliance of the production is evident, featuring a sizable cast that skillfully brings the many characters to life plus a remarkable staging. The first extended act introduces us to the intricacies of the characters, while the shorter second act builds up to a satisfying climax. The play, characterized by a slow burn, evokes a sense of a bygone era, yet its narrative, despite being about seemingly ordinary aspects, captivates the audience with its subtle charm.;7;3
+600;2024-02-20; Murder Trial Tonight II [] Tigerslane Studios Presents Murder Trial Tonight II – A Gripping and Immersive Jury Experience [r] Murder Trial Tonight II offers an immersive jury experience rooted in real events. The plot is well crafted to engage the audience in a decisive vote at the end, aiming for a close 50-50 split to an element of intrigue and involvement. While the acting is commendable and adds depth to the experience, the production falls short in sidestepping clichés, which slightly detracts from its impact. It provides a fun night out, albeit lacking the depth to spark meaningful post-show conversations. For those intrigued by this genre, Witness for the Prosecution by Agatha Christie presents a comparable concept executed with better quality. Honestly, still, we'll likely go for Part III if it happens.;7;3
+601;2024-02-21;180⁰ Chord [] by Chris Leicester [r] In a gritty plot set against the stark backdrop of a prison, a tough cop finds himself behind bars among those he once apprehended. The tables turn when an unexpected ally, an enigmatic inmate, emerges to ensure his safety. The unfolding mystery revolves around the question: why would a prisoner extend a helping hand? The narrative unfolds with minimal staging, presenting a series of diverse scenes featuring imaginary characters that propel the story forward. Despite the professional performances, the storyline struggles to fully engage with the audience. Barons Court Theatre, as usually, exudes a comfortably intimate atmosphere.;7;2
+602;2024-02-28;something in the lake + Plutoz Beach & Lipworms;1;5;13
+603;2024-02-29;Moulin Rouge! The Musical;6;2
+604;2024-03-08;West End Musical Love Songs [] [r] West End Musical Love Songs offers a medley of tunes from beloved musicals and movies, hosted by the charismatic Shanay Holmes and a skilled ensemble. However, the absence of a live band, save for a saxophone player, diminishes the overall experience, leaving it feeling lacking and somewhat makeshift. The production's apparent cost-cutting measures detract from its potential, raising concerns about the quality of entertainment offered. It's a disappointing offering that may set a concerning precedent if accepted uncritically. Avoid at all costs.;1;1
+605;2024-03-01;Just For One Day;6;5
+606;2024-03-09;Turning The Screw;7;3;12.45
+607;2024-03-10;Rika's Rooms [] by Gail Louw [r] Adapted from Louw's novel, the play draws inspiration from the playwright's own mother. Rika, in her mid-70s and residing in England with dementia, finds herself straddling two realms: a perplexing present and a past marked by drama and trauma. While the premise and central concept intrigue the audience, the execution falls short of sustaining engagement until the conclusion, a common challenge with solo performances.;7;2
+608;2024-03-10;Thanasis Papakonstantinou;1;5;49.92
+609;2024-03-13;Macbeth (An Undoing);7;2
+610;2024-03-17;The Good Father [] By Christian O’Reilly. Directed by Mark Fitzgerald. Cast: Tony Doyle, Sarah Noll [r] “What are you doing for sex tonight?” tipsy Jane asks Tim at the party they just met. Little do they know, that's the stage for an unexpected turn of events. Weeks later, Jane reaches out to Tim with surprising news: she's pregnant. Through a series of interesting dialogues,  largely led by Tim, the play delves into the emotional odyssey of the couple. It navigates the highs and lows, the challenges inherent in their situation, yet sprinkles humor throughout. Balancing romance with pragmatism, the play proves to be a finely-crafted exploration of love, laughter, and life's unpredictable twists.;7;4;16.45
+611;2024-03-17;The Girl In The Green Jumper [] Directed by Christian Holder and adapted by Gail Louw. With Peter Tate and Natalie Ava Nasr [r] "Don't want to draw any detail, don't want to compete with nature.." The Girl in the Green Jumper is adapted from the autobiographical book by Renske Mann, who is renowned as the wife and muse of the celebrated British sculptor and painter, Cyril Mann. It's a narrative that explores the journey of self-discovery, love, relationships, and the role of creativity.  The chemistry between the two cast members is remarkable, while their performances envelop the audience in the story. The production incorporates digital installations tastefully, adding visual depth to the storytelling. Without being weak, Natalie Ava Nasr strikes a delicate balance providing moments of lightness to an otherwise emotionally demanding life course. A must see!;7;4
+612;2024-03-18;Faith Healer;7;2;10
+613;2024-03-23;Nicholas Mccarthy: Journey Into Left-Hand Piano;13;4
+614;2024-03-23;Red Pitch [] Written by Tyrell Williams, Directed by Daniel Bailey with Kedar Williams-Stirling, Emeka Sesay and Francis Lovehall [r] We watch the final days in the everyday lives of three teenagers in London, who meet daily almost teleturgically, on the red pitch to train intensively for the upcoming football trials, before they get separated due to the so-called regeneration attempts. In the routine episodes of their young lives, the audience travels through their personal and shared aspirations, familial struggles and moments of youthful spontaneity as the three of them walk towards adulthood. Reaching a bittersweet (but an no point cheesy) finale, we are reminded that tight knit communities (as understood here in spatial and emotional terms) are eventually the beacons that -against the imposed isolation and individualism of our times- will push one and all one step forward. The production is enriched with some fire drill drops throughout. Recommended.;7;4
+615;2024-03-27;Twelve Angry Men;7;5
+616;2024-04-03;Filmmaker Europe 2k24 tour;2;4;28.87
+617;2024-04-04;Seal Boy [] Director: Sean Turner;7;2
+618;2024-04-13;Artificially Yours [] Director: McLeod;7;4
+619;2024-04-14;Vadym Kholodenko Performs Mozart & Rzewski [] Repertoire: Mozart: Requiem arr. Klindworth for piano | Rzewski: 36 Variations on `The People united will never be defeated!' for piano;20;5
+620;2024-04-17;The Glass Menagerie By Tennessee Williams;7;3
+621;2024-04-24;Bonnie & Clyde - The Musical;6;2
+622;2024-04-27;Power Of Sail [] Writer: Paul Grellong. Director: Dominic Dromgoole;7;4
+623;2024-04-27;Frozen [] by Bryony Lavery;7;3
+624;2024-05-04;The Ballad of Hattie and James;7;4
+625;2024-05-09;London Tide;7;4
+626;2024-05-27;The Book Of Grace;7;3
+627;2024-05-31;Accolade;7;5
+628;2024-06-01;High Lights;3;3
+629;2024-06-12;Wedding Band: A Love/Hate Story in Black & White;7;3
+630;2024-06-15;Between Riverside and Crazy;7;4
+631;2024-06-15;Boys From The Blackstuff;7;5
+632;2024-06-26;Passing Strange;6;-1
+633;2024-07-28;Junction 2 festival 2024;3;-1
+634;2024-08-15;Farm Hall;7;4

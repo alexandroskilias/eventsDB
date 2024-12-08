@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Table</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        th, td {
+            text-align: left;
+        }
+        #visibleCount {
+            margin-left: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Events Table</h1>
+
+    <div>
+        <input type="text" id="filterInput" placeholder="Filter by title or type..." onkeyup="filterTable()">
+        <!-- Section to display the count of visible rows, placed near the filter input -->
+        <div id="visibleCount">
+            <strong>Entries:</strong> <span id="rowCount">0</span>
+        </div>
+    </div>
+    
+    <table id="eventsTable">
+        <thead>
+            <tr>
+                <th id="dateHeader">Date</th>
+                <th>Title</th>
+                <th>Type</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody id="eventTableBody">
+            <!-- Table rows will be added here dynamically -->
+        </tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
