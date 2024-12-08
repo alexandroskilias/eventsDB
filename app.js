@@ -100,12 +100,16 @@ let sortAscending = true;  // Keep track of the sorting direction (ascending or 
 // Function to load the events data into the table
 function loadEventsTable(eventsData) {
     const tableBody = document.getElementById('eventTableBody');
+    
+    // Clear existing rows
+    tableBody.innerHTML = '';
 
-
-	if (sortAscending) 
+    // Sort events based on the specified order
+    if (sortAscending) {
         eventsData.sort((a, b) => new Date(a.Date) - new Date(b.Date));  // Ascending order
-	else 
+    } else {
         eventsData.sort((a, b) => new Date(b.Date) - new Date(a.Date));  // Descending order
+    }
 
     // Loop through the sorted events and populate the table
     eventsData.forEach(event => {
@@ -148,6 +152,7 @@ function loadEventsTable(eventsData) {
         row.addEventListener('click', () => toggleDetails(event.id));
     });
 }
+
 
 // Function to toggle the details visibility
 function toggleDetails(eventId) {
