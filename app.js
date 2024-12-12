@@ -95,7 +95,7 @@ function fetchAndLoadEvents() {
 }
 
 // Optional: Add sorting functionality for the Date column when clicked
-let sortAscending = true;  // Keep track of the sorting direction (ascending or descending)
+let sortAscending = false;  // Keep track of the sorting direction (ascending or descending)
 
 // Function to load the events data into the table
 function loadEventsTable(eventsData) {
