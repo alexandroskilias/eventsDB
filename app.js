@@ -174,7 +174,10 @@ function toggleDetails(eventId) {
             const artist = artistsData.find(artist => artist.id == eventArtist.artistid);
             if (artist) {
                 const artistItem = document.createElement('li');
-                artistItem.textContent = artist.Name;
+				if (eventArtist.headliner == 1)
+					artistItem.textContent = artist.Name + ' (Headliner)';
+				else
+					artistItem.textContent = artist.Name;
                 artistsList.appendChild(artistItem);
             }
         });
@@ -193,7 +196,10 @@ console.log('Result for venue search:', venueForEvent);
 		}
 		
         if (venueForEvent) {
-            venueDetails.textContent = `${venueForEvent.name}, ${venueForEvent.City}, ${venueForEvent.Country}`;
+			if (venueForEvent.Capacity > 0 )
+				venueDetails.textContent = `${venueForEvent.name}, Capacity: ${venueForEvent.Capacity}, ${venueForEvent.City}, ${venueForEvent.Country}`;
+			else
+				venueDetails.textContent = `${venueForEvent.name}, ${venueForEvent.City}, ${venueForEvent.Country}`;
         }
 
         // Show the details row
