@@ -12,6 +12,8 @@ let eventsArtistsVenuesData = [];
 let artistsData = [];
 let venuesData = [];
 
+let isLoading = true;
+
 // Use Promise.all to fetch all data
 Promise.all([
     fetch(eventTypesFile).then(response => {
@@ -71,9 +73,9 @@ Promise.all([
         });
 
         console.log('All data loaded and parsed');
-
-        // Call the function to load the events data into the table
-        fetchAndLoadEvents();
+		
+		isLoading = false;
+		fetchAndLoadEvents(); // Ensure this runs only after all other data is loaded
     })
     .catch(error => {
         console.error('Error loading data:', error);
@@ -99,6 +101,13 @@ let sortAscending = false;  // Keep track of the sorting direction (ascending or
 
 // Function to load the events data into the table
 function loadEventsTable(eventsData) {
+	
+	if (isLoading) {
+        console.warn('Data is still loading...');
+        return; // Do not proceed until all data is ready
+    }
+	
+	
     const tableBody = document.getElementById('eventTableBody');
     
     // Clear existing rows
