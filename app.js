@@ -115,11 +115,11 @@ function loadEventsTable(eventsData) {
 
     // Sort events based on the specified order
     if (sortAscending) {
-        eventsData.sort((a, b) => new Date(a.Date) - new Date(b.Date));  // Ascending order
+        eventsData.sort((a, b) => a.Date.localeCompare(b.Date));  // Ascending order
     } else {
-        eventsData.sort((a, b) => new Date(b.Date) - new Date(a.Date));  // Descending order
+        eventsData.sort((a, b) => b.Date.localeCompare(a.Date));  // Descending order
     }
-
+	
     // Loop through the sorted events and populate the table
     eventsData.forEach(event => {
         const row = document.createElement('tr');
@@ -276,3 +276,5 @@ document.getElementById('dateHeader').addEventListener('click', () => {
     // Re-load the table with sorted data
     loadEventsTable(eventsData);
 });
+
+
