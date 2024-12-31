@@ -263,7 +263,7 @@ id;name;Capacity;City;Country
 340;Piccadilly Theatre;0;London;UK
 341;Apollo Theatre;0;London;UK
 342;King's Head Theatre;0;London;UK
-343;Riverside Studios (Studio 2);350-400;London;UK
+343;Riverside Studios;0;London;UK
 344;Sohoplace Theatre;0;London;UK
 345;Moth Club;0;London;UK
 346;Greenwich Theatre;0;London;UK
@@ -279,4 +279,3 @@ id;name;Capacity;City;Country
 357;Two palms;0;London;UK
 358;229 London;0;London;UK
 359;Royal Opera House;0;London;UK
-360;Riverside Studios (Studio 3);172;London;UK
