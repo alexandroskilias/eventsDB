@@ -1,4 +1,4 @@
-id;Date;title;type;Rate
+id;Date;title;type;Rate;EventPrice;CommutePrice
 1;2016-01-28;Roundhouse presents: Gaz Coombes In the Round;1;-1
 2;2016-02-01;Roundhouse presents: Mulatu Astatke In the Round;1;-1
 3;2016-02-02;OG Maco - The Lord of Rage Tour;16;-1
@@ -521,96 +521,96 @@ id;Date;title;type;Rate
 525;2023-03-30;Liza Pulman & Joe Stilgoe - A Couple Of Swells;1;4
 526;2023-03-31;TTT MOT: CS + Kreme (Live), Memotone (Live), Han (Live), Will Bankhead;1;2
 527;2023-04-03;Friends Serene: Margomool / Frank Malachi / Bella Unwin;1;0
-528;2023-04-08;Friends serene: Sunken, nudista, Terra Twin, Joseph Futak and Sister Lucy;1;0
-529;2023-04-22;Jules and Jim by Timberlake Wertenbaker. [] Based on the novel by Henri-Pierre Roche. Directed by Stella Powell-Jones;7;4
+528;2023-04-08;Friends serene: Sunken, nudista, Terra Twin, Joseph Futak and Sister Lucy;1;0;0;11.85
+529;2023-04-22;Jules and Jim by Timberlake Wertenbaker. [] Based on the novel by Henri-Pierre Roche. Directed by Stella Powell-Jones;7;4;0;7.55
 530;2023-04-22;Trumpets and Raspberries by Dario Fo;7;4
-531;2023-04-29;Further than the Furthest Thing, Written by Zinnie Harris, Directed by Jennifer Tang;7;0
-532;2023-04-29;Gaz Coombes - Turn the car around UK/IRELAND April 2023. Support by LoneLady;1;0
-533;2023-05-06;5 Short Plays Loosely Linked By The Theme Of Crime. Witten by Charles Edward Pipe;7;4
-534;2023-05-26;Project 6 Festival;3;0
-535;2023-05-28;Live At The Palace - Groove Armada | with Dave Lee, Ashley Beedle, RAW SILK, louhayter ;1;5
-536;2023-06-07;Soft Cell | Hampton Court Palace Festival 2023;1;1
-537;2023-06-15;Accidental Death of an Anarchist [] Written by Dario Fo and Franca Rame. Adaptation by Tom Basden. Directed by Daniel Raggett.;7;4
-538;2023-08-19;Livia Rita: Dystopia Wetlands At Southbank Centre;1;2
-539;2023-08-20;Cloud X Festival 2023;3;0
-540;2023-08-26;We Are FSTVL 2023;3;0
-541;2023-09-02;Lex live at London w/ Dof Twogee & Squeezy Anks (Guests: VLOSPA, ΣΑΝΤΑΜ);1;0
-542;2023-09-10;Boogietown 2023;3;0
-543;2023-09-12;Ben Portsmouth: This Is Elvis;17;4
+531;2023-04-29;Further than the Furthest Thing, Written by Zinnie Harris, Directed by Jennifer Tang;7;0;0;0
+532;2023-04-29;Gaz Coombes - Turn the car around UK/IRELAND April 2023. Support by LoneLady;1;0;0;11.85
+533;2023-05-06;5 Short Plays Loosely Linked By The Theme Of Crime. Witten by Charles Edward Pipe;7;4;0;11.85
+534;2023-05-26;Project 6 Festival;3;0;0;13
+535;2023-05-28;Live At The Palace - Groove Armada | with Dave Lee, Ashley Beedle, RAW SILK, louhayter ;1;5;0;4.6
+536;2023-06-07;Soft Cell | Hampton Court Palace Festival 2023;1;1;0;6
+537;2023-06-15;Accidental Death of an Anarchist [] Written by Dario Fo and Franca Rame. Adaptation by Tom Basden. Directed by Daniel Raggett.;7;4;15;11.50
+538;2023-08-19;Livia Rita: Dystopia Wetlands At Southbank Centre;1;2;0;7.55
+539;2023-08-20;Cloud X Festival 2023;3;0;0;7.55
+540;2023-08-26;We Are FSTVL 2023;3;0;0;11.85
+541;2023-09-02;Lex live at London w/ Dof Twogee & Squeezy Anks (Guests: VLOSPA, ΣΑΝΤΑΜ);1;0;18;11.85
+542;2023-09-10;Boogietown 2023;3;0;0;14.98
+543;2023-09-12;Ben Portsmouth: This Is Elvis;17;4;10;11.5
 544;2023-09-16;One Out Festival 2023;3;0
-545;2023-09-19;Legend: The Music Of Bob Marley;17;4
+545;2023-09-19;Legend: The Music Of Bob Marley;17;4;10;11.5
 546;2023-09-23;The Father and the Assassin (by Anupama Chandrasekhar) [National Theatre];7;5
-547;2023-09-26;The Standard Short Long Drop (With Per Carminger & Kevin Wathen, Directed by Natasha Rickman, Written by Rachel Garnet);7;3
-548;2023-09-28;In Other Words (By Matthew Seager, Directed by Andy Routledge);7;5
+547;2023-09-26;The Standard Short Long Drop (With Per Carminger & Kevin Wathen, Directed by Natasha Rickman, Written by Rachel Garnet);7;3;0;13
+548;2023-09-28;In Other Words (By Matthew Seager, Directed by Andy Routledge);7;5;0;11.5
 549;2012-00-00;I Will Survive (του Γιάννη Σαρακατσάνη, Με τους Γιώργο Παπαγεωργίου και Αντίνοο Αλμπάνη);7;4
 550;2023-10-07;Enigma Variations (by Éric-Emmanuel Schmitt) (Γιάννης Μπέζος, Πυγμαλίων Δαδακαρίδης, Σωτήρης Τσαφούλιας);7;3
-551;2023-10-17;The Barricade Boys;6;4
-552;2023-10-20;Death Of England: Closing Time [] A Play by Clint Dyer and Roy Williams with Clint Dyer and Roy Williams;7;2
-553;2023-10-21;Sinatra: RAW Written & Perform By Richard Shelton;17;5
+551;2023-10-17;The Barricade Boys;6;4;10;11.5
+552;2023-10-20;Death Of England: Closing Time [] A Play by Clint Dyer and Roy Williams with Clint Dyer and Roy Williams;7;2;0;11.50
+553;2023-10-21;Sinatra: RAW Written & Perform By Richard Shelton;17;5;0;11.85
 554;2023-10-21;Ripper [] Writer: Jacob Marx Rice Director: Victoria Hadel;7;2
-555;2023-10-25;Pick of the fringe solo shows: The Quality of Mercy [] Writer: Edwin Flay Producer: Sarah Lawrie for Nailed Productions [r] "The Quality of Mercy" stands as a compelling piece of investigative theatre, delving deeply into the psyche of Britain's most prolific serial killer. Despite the inherent challenges of a solo play, the production skillfully navigates through a dramatic journey, providing profound insights into the mind of Dr. Harold Shipman. Edwin Flay's deep connection with Harold Shipman himself adds an extra layer of uniqueness to the performance. An absolute gem, a gripping experience, there's simply no excuse to overlook this masterpiece of pure art.;7;5;17
-556;2023-10-27;The Confessions by Alexander Zeldin;7;4
-557;2023-10-31;Pick of the fringe solo shows: The Devil's Passion [] Written & performed by Justin Butcher;7;1;13
-558;2023-11-01;A View From The Bridge [] by Arthur Miller Starring Jonathan Slinger and Nancy Crane;7;5;19.5
-559;2023-11-02;Arjuna Oakes Debut London performance;1;5
-560;2023-11-08;Derren Brown's Unbelievable;18;2
-561;2023-11-09;Private Lives [] by Noel Coward Starring Nigel Havers and Patricia Hodge;7;4
-562;2023-11-11;Quiz: The Coughing Major Millionaire Scandal [] by James Graham starring Rory Bremner;7;4
-563;2023-11-14;Radio GaGa | The Ultimate Celebration of Queen;17;4
-564;2023-11-18;Ozric Tentacles and Gong UK Tour 2023;1;1;31.85
-565;2023-11-22;The Drifters Girl |  Jukebox musical | Book by Ed Curtis. Based on an idea by Tina Treadwell;6;2
-566;2023-11-24;The Prodigy - Army Of The Ants UK Tour November 2023;1;5
-567;2023-11-25;Stephen Sondheim's Old Friends;6;5;41.35
-568;2023-11-26;Bernie Dieter's Club Kabarett;8;4;21.85
-569;2023-11-27;Jay Verma: 'River Full of Donations' EP Release;1;5
-570;2023-11-28;‘Japanese Postcards’ Concert - Rieko Makita;13;2
+555;2023-10-25;Pick of the fringe solo shows: The Quality of Mercy [] Writer: Edwin Flay Producer: Sarah Lawrie for Nailed Productions [r] "The Quality of Mercy" stands as a compelling piece of investigative theatre, delving deeply into the psyche of Britain's most prolific serial killer. Despite the inherent challenges of a solo play, the production skillfully navigates through a dramatic journey, providing profound insights into the mind of Dr. Harold Shipman. Edwin Flay's deep connection with Harold Shipman himself adds an extra layer of uniqueness to the performance. An absolute gem, a gripping experience, there's simply no excuse to overlook this masterpiece of pure art.;7;5;4;13
+556;2023-10-27;The Confessions by Alexander Zeldin;7;4;0;11.5
+557;2023-10-31;Pick of the fringe solo shows: The Devil's Passion [] Written & performed by Justin Butcher;7;1;0;13
+558;2023-11-01;A View From The Bridge [] by Arthur Miller Starring Jonathan Slinger and Nancy Crane;7;5;0;6
+559;2023-11-02;Arjuna Oakes Debut London performance;1;5;0;13
+560;2023-11-08;Derren Brown's Unbelievable;18;2;0;11.5
+561;2023-11-09;Private Lives [] by Noel Coward Starring Nigel Havers and Patricia Hodge;7;4;0;11.5
+562;2023-11-11;Quiz: The Coughing Major Millionaire Scandal [] by James Graham starring Rory Bremner;7;4;0;9.55
+563;2023-11-14;Radio GaGa | The Ultimate Celebration of Queen;17;4;0;11.5
+564;2023-11-18;Ozric Tentacles and Gong UK Tour 2023;1;1;20;11.85
+565;2023-11-22;The Drifters Girl |  Jukebox musical | Book by Ed Curtis. Based on an idea by Tina Treadwell;6;2;0;4.5
+566;2023-11-24;The Prodigy - Army Of The Ants UK Tour November 2023;1;5;0;13
+567;2023-11-25;Stephen Sondheim's Old Friends;6;5;29.5;11.85
+568;2023-11-26;Bernie Dieter's Club Kabarett;8;4;10;11.85
+569;2023-11-27;Jay Verma: 'River Full of Donations' EP Release;1;5;0;11.85
+570;2023-11-28;‘Japanese Postcards’ Concert - Rieko Makita;13;2;0;0
 571;2023-11-28;Ellie Harris Full Band Headline Show;1;5;25.54
-572;2023-11-30;Guys & Dolls: A Musical Fable Of Broadway [] Based on the story and characters by Damon Runyon, Music and lyrics by Frank Loesser, Book by Jo Swerling and Abe Burrows [r] The Bridge Theatre boldly explores dynamic staging in its rendition of the classic Guys and Dolls. While many found the unconventional approach effective, we hold a slightly divergent view, finding the continuously moving crowd somewhat distracting. Nevertheless, the musical succeeds in delivering the anticipated energy inherent in such a classic production. Notably, Daniel Mays shines as Nathan Detroit, delivering a truly outstanding performance that deserves special recognition.;6;4
-573;2023-12-01;Cloud Gate Dance Theatre of Taiwan Lunar Halo;19;1;28
-574;2023-12-02;Benet McLean Quintet - album launch;1;4
-575;2023-12-03;The Choir of Man [] Produced by Immersive Everywhere, Nic Doodson, Andrew Kay, Wendy & Andy Barnes and AK Theatricals. [r] The Choir of Man fulfills its promise as a boozy jukebox musical. Backed by convincing staging, a gifted cast, and a diverse selection of songs spanning various genres and eras, it endeavors to underscore the significance of pub culture as an integral part of British life. While successful in entertaining the audience, at times, it seems to strain in its efforts to convey its message, overshadowing the otherwise enjoyable experience.;6;3
+572;2023-11-30;Guys & Dolls: A Musical Fable Of Broadway [] Based on the story and characters by Damon Runyon, Music and lyrics by Frank Loesser, Book by Jo Swerling and Abe Burrows [r] The Bridge Theatre boldly explores dynamic staging in its rendition of the classic Guys and Dolls. While many found the unconventional approach effective, we hold a slightly divergent view, finding the continuously moving crowd somewhat distracting. Nevertheless, the musical succeeds in delivering the anticipated energy inherent in such a classic production. Notably, Daniel Mays shines as Nathan Detroit, delivering a truly outstanding performance that deserves special recognition.;6;4;15;11.85
+573;2023-12-01;Cloud Gate Dance Theatre of Taiwan Lunar Halo;19;1;15;13
+574;2023-12-02;Benet McLean Quintet - album launch;1;4;0;0
+575;2023-12-03;The Choir of Man [] Produced by Immersive Everywhere, Nic Doodson, Andrew Kay, Wendy & Andy Barnes and AK Theatricals. [r] The Choir of Man fulfills its promise as a boozy jukebox musical. Backed by convincing staging, a gifted cast, and a diverse selection of songs spanning various genres and eras, it endeavors to underscore the significance of pub culture as an integral part of British life. While successful in entertaining the audience, at times, it seems to strain in its efforts to convey its message, overshadowing the otherwise enjoyable experience.;6;3;25;13
 576;2023-12-03;Bach Christmas Oratorio 4-6;9;4
 577;2023-12-03;Aurora Dee Raynes Live;1;3
-578;2023-12-04;Crazy For You [] Music by Gershwin Starring Charlie Stemp and Carly Anderson [r] Embark on a nostalgic journey with this feel-good musical, radiating a charming retro aura that pays a sincere tribute to the timeless appeal of classic American musicals. While it flirts with being characterized as cheesy and dated, this production is tailored for those who appreciate the enduring charm of musical standards featuring music by the unparalleled maestro, George Gershwin. Filled with numerous tap dancing scenes, skillfully led by the exceptionally talented Charlie Stemp, it stands as a heartfelt love letter to the golden era of musical brilliance. However, if you're seeking something avant-garde and innovative, your quest for freshness may find a more suitable destination elsewhere. ;6;4
-579;2023-12-05;The Rat Pack - Swingin’ Christmas At The Sands;6;5
-580;2023-12-13;The House With Chicken Legs;7;2
+578;2023-12-04;Crazy For You [] Music by Gershwin Starring Charlie Stemp and Carly Anderson [r] Embark on a nostalgic journey with this feel-good musical, radiating a charming retro aura that pays a sincere tribute to the timeless appeal of classic American musicals. While it flirts with being characterized as cheesy and dated, this production is tailored for those who appreciate the enduring charm of musical standards featuring music by the unparalleled maestro, George Gershwin. Filled with numerous tap dancing scenes, skillfully led by the exceptionally talented Charlie Stemp, it stands as a heartfelt love letter to the golden era of musical brilliance. However, if you're seeking something avant-garde and innovative, your quest for freshness may find a more suitable destination elsewhere. ;6;4;15;11.85
+579;2023-12-05;The Rat Pack - Swingin’ Christmas At The Sands;6;5;15;11.85
+580;2023-12-14;The House With Chicken Legs;7;2;4.5;11.5
 581;2023-12-17;Reuben Kaye: The Butch Is Back;8;4;6
-582;2023-12-23;Infinite Life by Annie Baker;7;3
-583;2023-12-23; Charles Bukowski: LIFE WITH A LITTLE "L", Directed and Adapted by Anya Viller;7;2;15.8
-584;2023-12-29;Piccadilly Stand-Up Club at the The Coach House [] Acts: Jeff Innocent, Peter Jones, Denis Len, Monica Hsueh, Matt Rouse;5;3
-585;2023-12-31;NYE Basement Bash;2;1;11.85
-586;2024-01-04;Dear England [] by James Graham [r] Living beneath the Parthenon or the pyramids poses a formidable challenge—shouldering an immense weight. That's football for England, the country's own game. In James Graham's latest play, "Dear England," the narrative unfolds with compelling scenes that leave a lasting impact. During football squad preparation, Gareth Southgate explains, "Under fear, you make the worst decisions. Do whatever you decided during practice. Ignore the crowd, ignore the opponent keeper. Stick to your decision." Graham skillfully crafts a play that transcends the boundaries of football fandom, making it accessible and enjoyable for those not fascinated with the sport. However, for true football enthusiasts, the emotional impact is profound, as the play resonates with the passion and intensity that define the beautiful game. Highly recommended!;7;4;38
-587;2024-01-08;This Much I Know By Jonathan Spector;7;3;13
+582;2023-12-23;Infinite Life by Annie Baker;7;3;0;7.55
+583;2023-12-23;Charles Bukowski: LIFE WITH A LITTLE "L", Directed and Adapted by Anya Viller;7;2;4.5;10.35
+584;2023-12-29;Piccadilly Stand-Up Club at the The Coach House [] Acts: Jeff Innocent, Peter Jones, Denis Len, Monica Hsueh, Matt Rouse;5;3;0;11.5
+585;2023-12-31;NYE Basement Bash;2;1;0;11.85
+586;2024-01-04;Dear England [] by James Graham [r] Living beneath the Parthenon or the pyramids poses a formidable challenge—shouldering an immense weight. That's football for England, the country's own game. In James Graham's latest play, "Dear England," the narrative unfolds with compelling scenes that leave a lasting impact. During football squad preparation, Gareth Southgate explains, "Under fear, you make the worst decisions. Do whatever you decided during practice. Ignore the crowd, ignore the opponent keeper. Stick to your decision." Graham skillfully crafts a play that transcends the boundaries of football fandom, making it accessible and enjoyable for those not fascinated with the sport. However, for true football enthusiasts, the emotional impact is profound, as the play resonates with the passion and intensity that define the beautiful game. Highly recommended!;7;4;25;13
+587;2024-01-08;This Much I Know By Jonathan Spector;7;3;0;13
 588;2024-01-14;«Κάποιος να με προσέχει» του Frank McGuinness [] Αντίνοος Αλμπάνης, Σωτήρης Σκάντζικας, Δημήτρης Παπαγεωργίου;7;1
 589;2024-01-16;«Play it again, Sam (Ωραίος & Σέξι)» by Woody Allen [] Ανθούλα Αηδώνη, Γιάννης Μαυρόπουλος, Ιωάννης Καμπούρης, Βικτώρια Παπαδοπούλου Σισκοπούλου, Κωνσταντίνος Τσώνης;7;3
-590;2024-01-24;Kin [] [r] Amit Lahav's "Ķīn" endeavors to convey migration-inspired stories through a wordless visual narrative, achieving visual excellence. The absence of a clear and engaging storyline, however, proves somewhat disappointing. The emotional depth of the stories remains a highlight, offering relevant insights into the complexities of migration experiences. The seamless blending of a fitting musical soundtrack adds to the overall experience. Despite its academic appeal, the performance might not fully captivate all audiences though. From us it's a 3 out of 5 stars.;19;3
-591;2024-01-27;Nirvana UK;17;4;21.85
-592;2024-02-03;Bronco Billy The Musical [] A rollicking new musical comedy based on the original Clint Eastwood motion picture;6;3
-593;2024-02-03;Metamorphosis [] By Franz Kafka. Adapted by Lemn Sissay OBE. Directed by Scott Graham.;7;2;21.85
-594;2024-02-06;Sleuth []  By Anthony Shaffer with Todd Boyce and Neil McDermott [r] Sleuth follows the intense rivalry between two men, leading to a series of mind games and twists as they compete for dominance. After witnessing several renditions of the play, our anticipation is consistently elevated when attending a new production. Remarkably, this rendition succeeds in encapsulating the essence of this iconic play. A psychological thriller, brimming with suspense, sharp dialogue, and surprising turns, ensuring viewers remain thoroughly engaged. The production is polished, boasting impressive staging, professional performances, offering an enriching evening of theater.;7;4
-595;2024-02-07;When You Pass Over My Tomb [] Written by Sergio Blanco Adapted and Directed by Daniel Goldman;7;2;13
-596;2024-02-09;Ellen Kent: Carmen (Bizet);10;4
-597;2024-02-10;Frank Sinatra's Songs for Swingin' Lovers! [] Stephen Triffitt as Frank Sinatra, Toby Cruse conductor, Manhattan Swing Orchestra;17;5
-598;2024-02-13;Ruby Carr: eBae [] [r] Ruby Carr's eBae is a really fun hour, thematically focused on the peculiar and fascinating world of eBay, with high levels of energy and an honest first-person narrative. The show promises a greatly entertaining evening of comedy, offering a humorous exploration of the unique and often quirky aspects of the online marketplace subcultures.;5;4
-599;2024-02-16;Dear Octopus [] By Dodie Smith [r] Dear Octopus, a revival of Dodie Smith’s play, explores themes of family, growing up, and returning home. The brilliance of the production is evident, featuring a sizable cast that skillfully brings the many characters to life plus a remarkable staging. The first extended act introduces us to the intricacies of the characters, while the shorter second act builds up to a satisfying climax. The play, characterized by a slow burn, evokes a sense of a bygone era, yet its narrative, despite being about seemingly ordinary aspects, captivates the audience with its subtle charm.;7;3
-600;2024-02-20; Murder Trial Tonight II [] Tigerslane Studios Presents Murder Trial Tonight II – A Gripping and Immersive Jury Experience [r] Murder Trial Tonight II offers an immersive jury experience rooted in real events. The plot is well crafted to engage the audience in a decisive vote at the end, aiming for a close 50-50 split to an element of intrigue and involvement. While the acting is commendable and adds depth to the experience, the production falls short in sidestepping clichés, which slightly detracts from its impact. It provides a fun night out, albeit lacking the depth to spark meaningful post-show conversations. For those intrigued by this genre, Witness for the Prosecution by Agatha Christie presents a comparable concept executed with better quality. Honestly, still, we'll likely go for Part III if it happens.;7;3
-601;2024-02-21;180⁰ Chord [] by Chris Leicester [r] In a gritty plot set against the stark backdrop of a prison, a tough cop finds himself behind bars among those he once apprehended. The tables turn when an unexpected ally, an enigmatic inmate, emerges to ensure his safety. The unfolding mystery revolves around the question: why would a prisoner extend a helping hand? The narrative unfolds with minimal staging, presenting a series of diverse scenes featuring imaginary characters that propel the story forward. Despite the professional performances, the storyline struggles to fully engage with the audience. Barons Court Theatre, as usually, exudes a comfortably intimate atmosphere.;7;2
-602;2024-02-28;something in the lake + Plutoz Beach & Lipworms;1;5;13
-603;2024-02-29;Moulin Rouge! The Musical;6;2
-604;2024-03-08;West End Musical Love Songs [] [r] West End Musical Love Songs offers a medley of tunes from beloved musicals and movies, hosted by the charismatic Shanay Holmes and a skilled ensemble. However, the absence of a live band, save for a saxophone player, diminishes the overall experience, leaving it feeling lacking and somewhat makeshift. The production's apparent cost-cutting measures detract from its potential, raising concerns about the quality of entertainment offered. It's a disappointing offering that may set a concerning precedent if accepted uncritically. Avoid at all costs.;1;1
-605;2024-03-01;Just For One Day;6;5
-606;2024-03-09;Turning The Screw;7;3;12.45
+590;2024-01-24;Kin [] [r] Amit Lahav's "Ķīn" endeavors to convey migration-inspired stories through a wordless visual narrative, achieving visual excellence. The absence of a clear and engaging storyline, however, proves somewhat disappointing. The emotional depth of the stories remains a highlight, offering relevant insights into the complexities of migration experiences. The seamless blending of a fitting musical soundtrack adds to the overall experience. Despite its academic appeal, the performance might not fully captivate all audiences though. From us it's a 3 out of 5 stars.;19;3;0;11.5
+591;2024-01-27;Nirvana UK;17;4;10;11.85
+592;2024-02-03;Bronco Billy The Musical [] A rollicking new musical comedy based on the original Clint Eastwood motion picture;6;3;15.5;11.85
+593;2024-02-03;Metamorphosis [] By Franz Kafka. Adapted by Lemn Sissay OBE. Directed by Scott Graham.;7;2;10;11.85
+594;2024-02-06;Sleuth []  By Anthony Shaffer with Todd Boyce and Neil McDermott [r] Sleuth follows the intense rivalry between two men, leading to a series of mind games and twists as they compete for dominance. After witnessing several renditions of the play, our anticipation is consistently elevated when attending a new production. Remarkably, this rendition succeeds in encapsulating the essence of this iconic play. A psychological thriller, brimming with suspense, sharp dialogue, and surprising turns, ensuring viewers remain thoroughly engaged. The production is polished, boasting impressive staging, professional performances, offering an enriching evening of theater.;7;4;0;12
+595;2024-02-07;When You Pass Over My Tomb [] Written by Sergio Blanco Adapted and Directed by Daniel Goldman;7;2;0;13
+596;2024-02-09;Ellen Kent: Carmen (Bizet);10;4;0;4.5
+597;2024-02-10;Frank Sinatra's Songs for Swingin' Lovers! [] Stephen Triffitt as Frank Sinatra, Toby Cruse conductor, Manhattan Swing Orchestra;17;5;0;7.55
+598;2024-02-13;Ruby Carr: eBae [] [r] Ruby Carr's eBae is a really fun hour, thematically focused on the peculiar and fascinating world of eBay, with high levels of energy and an honest first-person narrative. The show promises a greatly entertaining evening of comedy, offering a humorous exploration of the unique and often quirky aspects of the online marketplace subcultures.;5;4;0;11.5
+599;2024-02-16;Dear Octopus [] By Dodie Smith [r] Dear Octopus, a revival of Dodie Smith’s play, explores themes of family, growing up, and returning home. The brilliance of the production is evident, featuring a sizable cast that skillfully brings the many characters to life plus a remarkable staging. The first extended act introduces us to the intricacies of the characters, while the shorter second act builds up to a satisfying climax. The play, characterized by a slow burn, evokes a sense of a bygone era, yet its narrative, despite being about seemingly ordinary aspects, captivates the audience with its subtle charm.;7;3;0;11.50
+600;2024-02-20;Murder Trial Tonight II [] Tigerslane Studios Presents Murder Trial Tonight II – A Gripping and Immersive Jury Experience [r] Murder Trial Tonight II offers an immersive jury experience rooted in real events. The plot is well crafted to engage the audience in a decisive vote at the end, aiming for a close 50-50 split to an element of intrigue and involvement. While the acting is commendable and adds depth to the experience, the production falls short in sidestepping clichés, which slightly detracts from its impact. It provides a fun night out, albeit lacking the depth to spark meaningful post-show conversations. For those intrigued by this genre, Witness for the Prosecution by Agatha Christie presents a comparable concept executed with better quality. Honestly, still, we'll likely go for Part III if it happens.;7;3;10;11.50
+601;2024-02-21;180⁰ Chord [] by Chris Leicester [r] In a gritty plot set against the stark backdrop of a prison, a tough cop finds himself behind bars among those he once apprehended. The tables turn when an unexpected ally, an enigmatic inmate, emerges to ensure his safety. The unfolding mystery revolves around the question: why would a prisoner extend a helping hand? The narrative unfolds with minimal staging, presenting a series of diverse scenes featuring imaginary characters that propel the story forward. Despite the professional performances, the storyline struggles to fully engage with the audience. Barons Court Theatre, as usually, exudes a comfortably intimate atmosphere.;7;2;0;11.5
+602;2024-02-28;something in the lake + Plutoz Beach & Lipworms;1;5;0;13
+603;2024-02-29;Moulin Rouge! The Musical;6;2;29;11.5
+604;2024-03-08;West End Musical Love Songs [] [r] West End Musical Love Songs offers a medley of tunes from beloved musicals and movies, hosted by the charismatic Shanay Holmes and a skilled ensemble. However, the absence of a live band, save for a saxophone player, diminishes the overall experience, leaving it feeling lacking and somewhat makeshift. The production's apparent cost-cutting measures detract from its potential, raising concerns about the quality of entertainment offered. It's a disappointing offering that may set a concerning precedent if accepted uncritically. Avoid at all costs.;1;1;15;11.5
+605;2024-03-01;Just For One Day;6;5;30;11.5
+606;2024-03-09;Turning The Screw;7;3;4;0
 607;2024-03-10;Rika's Rooms [] by Gail Louw [r] Adapted from Louw's novel, the play draws inspiration from the playwright's own mother. Rika, in her mid-70s and residing in England with dementia, finds herself straddling two realms: a perplexing present and a past marked by drama and trauma. While the premise and central concept intrigue the audience, the execution falls short of sustaining engagement until the conclusion, a common challenge with solo performances.;7;2
-608;2024-03-10;Thanasis Papakonstantinou;1;5;49.92
-609;2024-03-13;Macbeth (An Undoing);7;2
-610;2024-03-17;The Good Father [] By Christian O’Reilly. Directed by Mark Fitzgerald. Cast: Tony Doyle, Sarah Noll [r] “What are you doing for sex tonight?” tipsy Jane asks Tim at the party they just met. Little do they know, that's the stage for an unexpected turn of events. Weeks later, Jane reaches out to Tim with surprising news: she's pregnant. Through a series of interesting dialogues,  largely led by Tim, the play delves into the emotional odyssey of the couple. It navigates the highs and lows, the challenges inherent in their situation, yet sprinkles humor throughout. Balancing romance with pragmatism, the play proves to be a finely-crafted exploration of love, laughter, and life's unpredictable twists.;7;4;16.45
-611;2024-03-17;The Girl In The Green Jumper [] Directed by Christian Holder and adapted by Gail Louw. With Peter Tate and Natalie Ava Nasr [r] "Don't want to draw any detail, don't want to compete with nature.." The Girl in the Green Jumper is adapted from the autobiographical book by Renske Mann, who is renowned as the wife and muse of the celebrated British sculptor and painter, Cyril Mann. It's a narrative that explores the journey of self-discovery, love, relationships, and the role of creativity.  The chemistry between the two cast members is remarkable, while their performances envelop the audience in the story. The production incorporates digital installations tastefully, adding visual depth to the storytelling. Without being weak, Natalie Ava Nasr strikes a delicate balance providing moments of lightness to an otherwise emotionally demanding life course. A must see!;7;4
-612;2024-03-18;Faith Healer;7;2;10
-613;2024-03-23;Nicholas Mccarthy: Journey Into Left-Hand Piano;13;4
-614;2024-03-23;Red Pitch [] Written by Tyrell Williams, Directed by Daniel Bailey with Kedar Williams-Stirling, Emeka Sesay and Francis Lovehall [r] We watch the final days in the everyday lives of three teenagers in London, who meet daily almost teleturgically, on the red pitch to train intensively for the upcoming football trials, before they get separated due to the so-called regeneration attempts. In the routine episodes of their young lives, the audience travels through their personal and shared aspirations, familial struggles and moments of youthful spontaneity as the three of them walk towards adulthood. Reaching a bittersweet (but an no point cheesy) finale, we are reminded that tight knit communities (as understood here in spatial and emotional terms) are eventually the beacons that -against the imposed isolation and individualism of our times- will push one and all one step forward. The production is enriched with some fire drill drops throughout. Recommended.;7;4
-615;2024-03-27;Twelve Angry Men;7;5
-616;2024-04-03;Filmmaker Europe 2k24 tour;2;4;28.87
-617;2024-04-04;Seal Boy [] Director: Sean Turner;7;2
+608;2024-03-10;Thanasis Papakonstantinou;1;5;37.47;12.45
+609;2024-03-13;Macbeth (An Undoing);7;2;6.5;6.3
+610;2024-03-17;The Good Father [] By Christian O’Reilly. Directed by Mark Fitzgerald. Cast: Tony Doyle, Sarah Noll [r] “What are you doing for sex tonight?” tipsy Jane asks Tim at the party they just met. Little do they know, that's the stage for an unexpected turn of events. Weeks later, Jane reaches out to Tim with surprising news: she's pregnant. Through a series of interesting dialogues,  largely led by Tim, the play delves into the emotional odyssey of the couple. It navigates the highs and lows, the challenges inherent in their situation, yet sprinkles humor throughout. Balancing romance with pragmatism, the play proves to be a finely-crafted exploration of love, laughter, and life's unpredictable twists.;7;4;4;12.45
+611;2024-03-17;The Girl In The Green Jumper [] Directed by Christian Holder and adapted by Gail Louw. With Peter Tate and Natalie Ava Nasr [r] "Don't want to draw any detail, don't want to compete with nature.." The Girl in the Green Jumper is adapted from the autobiographical book by Renske Mann, who is renowned as the wife and muse of the celebrated British sculptor and painter, Cyril Mann. It's a narrative that explores the journey of self-discovery, love, relationships, and the role of creativity.  The chemistry between the two cast members is remarkable, while their performances envelop the audience in the story. The production incorporates digital installations tastefully, adding visual depth to the storytelling. Without being weak, Natalie Ava Nasr strikes a delicate balance providing moments of lightness to an otherwise emotionally demanding life course. A must see!;7;4;4;0
+612;2024-03-18;Faith Healer;7;2;10;12.10
+613;2024-03-23;Nicholas Mccarthy: Journey Into Left-Hand Piano;13;4;6.5;7.95
+614;2024-03-23;Red Pitch [] Written by Tyrell Williams, Directed by Daniel Bailey with Kedar Williams-Stirling, Emeka Sesay and Francis Lovehall [r] We watch the final days in the everyday lives of three teenagers in London, who meet daily almost teleturgically, on the red pitch to train intensively for the upcoming football trials, before they get separated due to the so-called regeneration attempts. In the routine episodes of their young lives, the audience travels through their personal and shared aspirations, familial struggles and moments of youthful spontaneity as the three of them walk towards adulthood. Reaching a bittersweet (but an no point cheesy) finale, we are reminded that tight knit communities (as understood here in spatial and emotional terms) are eventually the beacons that -against the imposed isolation and individualism of our times- will push one and all one step forward. The production is enriched with some fire drill drops throughout. Recommended.;7;4;10;7.95
+615;2024-03-27;Twelve Angry Men;7;5;6.5;10
+616;2024-04-03;Filmmaker Europe 2k24 tour;2;4;15.87;13
+617;2024-04-04;Seal Boy [] Director: Sean Turner;7;2;4;13
 618;2024-04-13;Artificially Yours [] Director: McLeod;7;4
 619;2024-04-14;Vadym Kholodenko Performs Mozart & Rzewski [] Repertoire: Mozart: Requiem arr. Klindworth for piano | Rzewski: 36 Variations on `The People united will never be defeated!' for piano;20;5
 620;2024-04-17;The Glass Menagerie By Tennessee Williams;7;3
@@ -661,6 +661,6 @@ id;Date;title;type;Rate
 665;2024-12-14;The Unseen | Company:Torn Tapestry Ltd Director: Iya Patarkatsishvili Cast:Waj Ali, Richard Harrington, Ross Tomlinson and James Physick;7;4
 666;2024-12-17;Something in the lake residency at Shacklewell Arms;1;4
 667;2024-12-19;The Prodigy DISRUPTA TOUR;1;5
-668;2024-12-20;The Prodigy DISRUPTA TOUR;1;5
-669;2024-12-21;The Lehman Trilogy. By Stefano Massini. Adapted by Ben Power. Directed by Sam Mendes;7;4
-670;2024-12-30;King James By Rajiv Joseph. Directed By Alice Hamilton;7;5
+668;2024-12-20;The Prodigy DISRUPTA TOUR [] [r] There’s not much to add about The Prodigy – they continue to deliver the ultimate live electronic experience, where mosh pits collide with rave energy. Interestingly, the Friday night crowd skewed much younger compared to the previous day, proving the band still attracts new fans, even if their glory days are behind them.If you haven't seen them live yet, you have no excuse.;1;5
+669;2024-12-21;The Lehman Trilogy. [] By Stefano Massini. Adapted by Ben Power. Directed by Sam Mendes [r] The Lehman Trilogy employs third-person narration, with actors describe the story, characters, and actions as though narrating a book rather than fully immersing themselves in the roles through traditional acting. While the production was really cool, it wasn't enough to overcome this narrative style, which we found disappointing. Still worth seeing, but it felt like a missed opportunity given its potential.;7;4
+670;2024-12-30;King James [] By Rajiv Joseph. Directed By Alice Hamilton [r] "King James" begins as a discussion about basketball greatness, debating whether LeBron James or Michael Jordan holds the GOAT title but very soon it evolves into a deeper exploration of friendship, using themes like LeBron's departure from the Cleveland Cavaliers to delve into personal connections. The chemistry between the two actors is exceptional, creating a heartfelt theatrical experience that reminds you why you love theatre. Truly impressive!;7;5
