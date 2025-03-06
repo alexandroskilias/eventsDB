@@ -8,24 +8,9 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea, #764ba2); /* Gradient background */
-            color: #fff; /* Light text for contrast on gradient */
-            margin: 0; /* Remove default margin */
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh; /* Ensure full viewport height */
-        }
-
-        .main-content {
-            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white content area */
-            color: #333; /* Dark text for contrast */
-            padding: 20px;
-            margin: 20px auto; /* Center the content area */
-            width: 90%;
-            max-width: 1200px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            flex-grow: 1; /* Allow content to grow */
+            background-color: #f4f7f9;
+            color: #333;
+            margin: 20px;
         }
 
         h1 {
@@ -83,29 +68,27 @@
     </style>
 </head>
 <body>
-    <div class="main-content">
-        <h1>Gigs Reviews Ratings by SE</h1>
+    <h1>Gigs | Reviews | Ratings | SE</h1>
 
-        <div>
-            <input type="text" id="filterInput" placeholder="Filter by title or type..." onkeyup="filterTable()">
-            <div id="visibleCount">
-                <strong>Entries:</strong> <span id="rowCount">0</span>
-            </div>
+    <div>
+        <input type="text" id="filterInput" placeholder="Filter by title or type..." onkeyup="filterTable()">
+        <div id="visibleCount">
+            <strong>Entries:</strong> <span id="rowCount">0</span>
         </div>
-        
-        <table id="eventsTable">
-            <thead>
-                <tr>
-                    <th id="dateHeader">Date</th>
-                    <th>Title</th>
-                    <th>Type</th>
-                    <th>Rate</th>
-                </tr>
-            </thead>
-            <tbody id="eventTableBody">
-                </tbody>
-        </table>
     </div>
+    
+    <table id="eventsTable">
+        <thead>
+            <tr>
+                <th id="dateHeader">Date</th>
+                <th>Title</th>
+                <th>Type</th>
+                <th>Rate</th>
+            </tr>
+        </thead>
+        <tbody id="eventTableBody">
+            </tbody>
+    </table>
 
     <script src="app.js"></script>
 </body>
