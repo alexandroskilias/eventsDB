@@ -3,20 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Table</title>
+    <title>Gigs Reviews Ratings by SE</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
             padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            width: 300px;
+            margin-bottom: 10px;
         }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
         th, td {
+            padding: 12px 15px;
             text-align: left;
+            border-bottom: 1px solid #e0e0e0;
         }
+
+        th {
+            background-color: #3498db;
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e8f5ff;
+        }
+
         #visibleCount {
-            margin-left: 20px;
+            margin-left: 10px;
             display: inline-block;
+            color: #555;
+            font-size: 0.9em;
+        }
+
+        #visibleCount strong {
+            font-weight: 600;
         }
     </style>
 </head>
@@ -25,7 +72,6 @@
 
     <div>
         <input type="text" id="filterInput" placeholder="Filter by title or type..." onkeyup="filterTable()">
-        <!-- Section to display the count of visible rows, placed near the filter input -->
         <div id="visibleCount">
             <strong>Entries:</strong> <span id="rowCount">0</span>
         </div>
@@ -41,8 +87,7 @@
             </tr>
         </thead>
         <tbody id="eventTableBody">
-            <!-- Table rows will be added here dynamically -->
-        </tbody>
+            </tbody>
     </table>
 
     <script src="app.js"></script>
