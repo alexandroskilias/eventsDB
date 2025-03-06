@@ -73,7 +73,7 @@ id;name;Capacity;City;Country
 216;Limani Thessaloniki;-1;Thessaloniki;Greece
 212;Liosi Beach Bar;-1;Halkidiki;Greece
 97;Liverpool Philharmonic Hall;-1;Liverpool;UK
-140;London Coliseum;-1;London;UK
+140;London Coliseum;2359;London;UK
 135;London Fields Brewery;-1;London;UK
 18;London Palladium;-1;London;UK
 154;London Sofar living room;-1;London;UK
@@ -114,7 +114,7 @@ id;name;Capacity;City;Country
 134;Republic;-1;Leicester;UK
 1;Roundhouse;1700;London;UK
 124;Royal Albert Hall;-1;London;UK
-98;Royal Festival Hall;-1;London;UK
+98;Royal Festival Hall;2700;London;UK
 126;Royal Festival Hall;-1;London;UK
 123;Scala;-1;London;UK
 113;Servant Jazz Quarters;-1;London;UK
@@ -146,11 +146,11 @@ id;name;Capacity;City;Country
 128;The Musician Pub;-1;Leicester;UK
 186;The Novello Theatre;-1;London;UK
 240;The Old Blue Last;-1;London;UK
-258;The Old Vic Theatre;-1;London;UK
+258;The Old Vic Theatre;1067;London;UK
 183;The Other Palace;-1;London;UK
 108;The Union Chapel;-1;London;UK
 20;The Waiting Room;-1;London;UK
-22;Theatre Royal Drury Lane;-1;London;UK
+22;Theatre Royal Drury Lane;2196;London;UK
 203;Theatre Royal Haymarket;-1;London;UK
 250;Theatro Alma;-1;Athens;Greece
 187;Theatro Athinaion;-1;Thessaloniki;Greece
@@ -246,7 +246,7 @@ id;name;Capacity;City;Country
 323;Underbelly Boulevard;0;London;UK
 324;Yamaha London;0;London;UK
 325;Royal College of Music;0;London;UK
-326;Sadlers Wells Theatre;0;London;UK
+326;Sadlers Wells Theatre;1568;London;UK
 327;World Heart Beat Embassy ;0;London;UK
 328;The Forge (Camden);0;London;UK
 329;Gillian Lynne Theatre;0;London;UK
@@ -278,7 +278,7 @@ id;name;Capacity;City;Country
 355;The Tabernacle;0;London;UK
 357;Two palms;0;London;UK
 358;229 London;0;London;UK
-359;Royal Opera House;0;London;UK
+359;Royal Opera House;2256;London;UK
 360;Etcetera Theatre;0;London;UK
 361;Theatro Monis Lazariston;-1;Thessaloniki;Greece
 362;Metropolitan Urban Theater;-1;Thessaloniki;Greece
