@@ -282,7 +282,7 @@ id;name;Capacity;City;Country
 360;Etcetera Theatre;0;London;UK
 361;Theatro Monis Lazariston;-1;Thessaloniki;Greece
 362;Metropolitan Urban Theater;-1;Thessaloniki;Greece
-363;Millfield Theatre;0;London;UK
+363;Millfield Theatre;362;London;UK
 364;Seven Dials Club;0;London;UK
 365;New Wimbledon Theatre;0;London;UK
 366;Hackney Church;0;London;UK
@@ -291,4 +291,4 @@ id;name;Capacity;City;Country
 369;ΛΟΣΑΝΤΖΕΛΕ Comedy Club;0;Athens;Greece
 370;Brixton House;0;London;UK
 371;HERE At Outernet;0;London;UK
-372;Leicester Square Theatre;0;London;UK
+372;Leicester Square Theatre;400;London;UK
