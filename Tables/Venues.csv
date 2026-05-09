@@ -123,7 +123,7 @@ id;name;Capacity;City;Country
 234;Skopje Fair;-1;Skopje;Skopje
 202;Southwark Playhouse (Large);-1;London;UK
 170;Spitimou Groundfloor;-1;Thessaloniki;Greece
-246;SSE Arena Wembley;-1;London;UK
+246;SSE Arena Wembley (OVO Arena Wembley);-1;London;UK
 4;St Pancras Old Church;-1;London;UK
 119;St. Johns Hackney;-1;London;UK
 238;Stardust;-1;Thessaloniki;Greece
@@ -300,3 +300,4 @@ id;name;Capacity;City;Country
 379;Theatro Kollosaion;0;Thessaloniki;Greece
 380;Donmar Warehouse;0;London;UK
 381;Circuit (ex pryzm);0;Kingston;UK
+382;Big Belly Bar & Comedy Club;0;London;UK
