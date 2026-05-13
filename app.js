@@ -1,280 +1,138 @@
-// Paths to your CSV files
 const eventsFile = 'tables/events.csv';
 const eventTypesFile = 'tables/eventtypes.csv';
 const eventsArtistsVenuesFile = 'tables/eventsartistsvenues.csv';
 const artistsFile = 'tables/artists.csv';
 const venuesFile = 'tables/venues.csv';
 
-// Global storage
-let eventsData = [];
-let eventTypesData = [];
-let eventsArtistsVenuesData = [];
-let artistsData = [];
-let venuesData = [];
+let eventsData = [], eventTypesData = [], eventsArtistsVenuesData = [], artistsData = [], venuesData = [];
+let sortAsc = false;
 
-let isLoading = true;
-
-// Use Promise.all to fetch all data
 Promise.all([
-    fetch(eventTypesFile).then(response => {
-        if (!response.ok) throw new Error('Failed to load event types CSV');
-        return response.text();
-    }),
-    fetch(eventsArtistsVenuesFile).then(response => {
-        if (!response.ok) throw new Error('Failed to load events artists venues CSV');
-        return response.text();
-    }),
-    fetch(artistsFile).then(response => {
-        if (!response.ok) throw new Error('Failed to load artists CSV');
-        return response.text();
-    }),
-    fetch(venuesFile).then(response => {
-        if (!response.ok) throw new Error('Failed to load venues CSV');
-        return response.text();
-    }),
-])
-    .then(([eventTypesCSV, eventsArtistsVenuesCSV, artistsCSV, venuesCSV]) => {
-        // Parse and store data
-        eventTypesData = Papa.parse(eventTypesCSV, { header: true, delimiter: ';' }).data;
-		
-		// Clean the data here
-        eventTypesData = eventTypesData.map(row => {
-            return Object.fromEntries(
-                Object.entries(row).map(([key, value]) => [key, value.trim().replace(/\r/g, '')])
-            );
-        });
-		
-		
-        eventsArtistsVenuesData = Papa.parse(eventsArtistsVenuesCSV, { header: true, delimiter: ';' }).data;
-		
-		// Clean the data here
-        eventsArtistsVenuesData = eventsArtistsVenuesData.map(row => {
-            return Object.fromEntries(
-                Object.entries(row).map(([key, value]) => [key, value.trim().replace(/\r/g, '')])
-            );
-        });
-		
-        artistsData = Papa.parse(artistsCSV, { header: true, delimiter: ';' }).data;
-		
-		// Clean the data here
-        artistsData = artistsData.map(row => {
-            return Object.fromEntries(
-                Object.entries(row).map(([key, value]) => [key, value.trim().replace(/\r/g, '')])
-            );
-        });
-		
-        venuesData = Papa.parse(venuesCSV, { header: true, delimiter: ';' }).data;
-		
-		// Clean the data here
-        venuesData = venuesData.map(row => {
-            return Object.fromEntries(
-                Object.entries(row).map(([key, value]) => [key, value.trim().replace(/\r/g, '')])
-            );
-        });
-
-        console.log('All data loaded and parsed');
-		
-		isLoading = false;
-		fetchAndLoadEvents(); // Ensure this runs only after all other data is loaded
-    })
-    .catch(error => {
-        console.error('Error loading data:', error);
-    });
-
-// Fetch and parse the events CSV after loading the other data
-function fetchAndLoadEvents() {
-    fetch(eventsFile)
-        .then(response => {
-            if (!response.ok) throw new Error('Failed to load events CSV');
-            return response.text();
-        })
-        .then(csv => {
-            eventsData = Papa.parse(csv, { header: true, delimiter: ';' }).data;
-            console.log('Events Data:', eventsData); // Debugging log
-            loadEventsTable(eventsData);
-        })
-        .catch(error => console.error('Error loading events CSV:', error));
-}
-
-// Optional: Add sorting functionality for the Date column when clicked
-let sortAscending = false;  // Keep track of the sorting direction (ascending or descending)
-
-// Function to load the events data into the table
-function loadEventsTable(eventsData) {
-	
-	if (isLoading) {
-        console.warn('Data is still loading...');
-        return; // Do not proceed until all data is ready
-    }
-	
-	
-    const tableBody = document.getElementById('eventTableBody');
-    
-    // Clear existing rows
-    tableBody.innerHTML = '';
-
-    // Sort events based on the specified order
-    if (sortAscending) {
-        eventsData.sort((a, b) => a.Date.localeCompare(b.Date));  // Ascending order
-    } else {
-        eventsData.sort((a, b) => b.Date.localeCompare(a.Date));  // Descending order
-    }
-	
-    // Loop through the sorted events and populate the table
-    eventsData.forEach(event => {
-        const row = document.createElement('tr');
-        row.classList.add('event-row');
-        row.setAttribute('data-id', event.id); // Set data-id attribute for later use
-
-        // Find the event type description by matching the 'type' field with eventTypesData
-        const eventType = eventTypesData.find(type => type.id == event.type);
-        const eventTypeDescription = eventType ? eventType.type : 'Unknown'; // Default to 'Unknown' if not found
-
-        row.innerHTML = `
-            <td>${event.Date}</td>
-            <td>${event.title}</td>
-            <td>${eventTypeDescription}</td>
-            <td>${event.Rate}</td>
-        `;
-
-        // Create expandable details row for each event
-        const detailsRow = document.createElement('tr');
-        detailsRow.classList.add('details-row');
-        detailsRow.style.display = 'none'; // Hide by default
-        detailsRow.setAttribute('data-id', event.id); // Match it with the event id
-        detailsRow.innerHTML = `
-            <td colspan="4">
-                <div id="eventDetails-${event.id}" style="padding: 10px;">
-                    <h3>Artists:</h3>
-                    <ul id="artistsList-${event.id}"></ul>
-                    <h3>Venue:</h3>
-                    <p id="venueDetails-${event.id}"></p>
-                </div>
-            </td>
-        `;
-
-        // Add row and details row to the table
-        tableBody.appendChild(row);
-        tableBody.appendChild(detailsRow);
-
-        // Add event listener to toggle details when clicking on a row
-        row.addEventListener('click', () => toggleDetails(event.id));
-    });
-}
-
-
-// Function to toggle the details visibility
-function toggleDetails(eventId) {
-    const detailsRow = document.querySelector(`.details-row[data-id='${eventId}']`);
-    const artistsList = document.getElementById(`artistsList-${eventId}`);
-    const venueDetails = document.getElementById(`venueDetails-${eventId}`);
-
-    // If the row is already expanded, collapse it
-    if (detailsRow.style.display === 'none') {
-        // Find the artists for this event
-        const artistsForEvent = eventsArtistsVenuesData.filter(row => row.eventid == eventId);
-		
-		if (!artistsForEvent || artistsForEvent.length === 0) {
-			console.warn(`No artists found for event ID: ${eventId}`);
-		}
-		
-        artistsList.innerHTML = ''; // Clear the previous list
-        artistsForEvent.forEach(eventArtist => {
-            const artist = artistsData.find(artist => artist.id == eventArtist.artistid);
-            if (artist) {
-                const artistItem = document.createElement('li');
-				if (eventArtist.headliner == 1)
-					artistItem.textContent = artist.Name + ' (Headliner)';
-				else
-					artistItem.textContent = artist.Name;
-                artistsList.appendChild(artistItem);
-            }
-        });
-
-        // Find the venue for this event
-        const venueForEvent = venuesData.find(venue => venue.id == artistsForEvent[0].venueid);
-		
-
-console.log('artistsForEvent:', artistsForEvent);
-console.log('Looking for venue ID:', artistsForEvent[0]?.venueid);
-console.log('venuesData:', venuesData);
-console.log('Result for venue search:', venueForEvent);
-		
-		if (!venueForEvent) {
-			console.warn(`No venue found for event ID: ${eventId}`);
-		}
-		
-        if (venueForEvent) {
-			if (venueForEvent.Capacity > 0 )
-				venueDetails.textContent = `${venueForEvent.name}, Capacity: ${venueForEvent.Capacity}, ${venueForEvent.City}, ${venueForEvent.Country}`;
-			else
-				venueDetails.textContent = `${venueForEvent.name}, ${venueForEvent.City}, ${venueForEvent.Country}`;
-        }
-
-        // Show the details row
-        detailsRow.style.display = '';
-    } else {
-        // Collapse the details row
-        detailsRow.style.display = 'none';
-    }
-}
-
-// Function to filter the table based on the input field
-function filterTable() {
-    const filter = document.getElementById('filterInput').value.toLowerCase();
-    const rows = document.querySelectorAll('#eventTableBody tr');
-    let visibleRowCount = 0;
-
-    rows.forEach(row => {
-        if (row.classList.contains('event-row')) {
-            const cells = row.getElementsByTagName('td');
-            const title = cells[1].textContent.toLowerCase();
-            const type = cells[2].textContent.toLowerCase();
-
-            // Get the event id to filter the artists and venue
-            const eventId = row.getAttribute('data-id');
-            const artistsForEvent = eventsArtistsVenuesData.filter(row => row.eventid == eventId);
-            const venueForEvent = venuesData.find(venue => venue.id == artistsForEvent[0]?.venueid);
-            
-            // Check if any artist or venue matches the filter
-            let artistsMatch = false;
-            artistsForEvent.forEach(eventArtist => {
-                const artist = artistsData.find(artist => artist.id == eventArtist.artistid);
-                if (artist && artist.Name.toLowerCase().includes(filter)) {
-                    artistsMatch = true;
-                }
-            });
-
-            const venueMatch = venueForEvent && (venueForEvent.name.toLowerCase().includes(filter) || venueForEvent.City.toLowerCase().includes(filter));
-
-            // If the filter matches the event title, type, artist, or venue, show the row
-            if (title.includes(filter) || type.includes(filter) || artistsMatch || venueMatch) {
-                row.style.display = '';
-                // Show the details row as well if the event row is visible
-                const detailsRow = document.querySelector(`.details-row[data-id='${eventId}']`);
-                detailsRow.style.display = 'none'; // Keep it collapsed after search
-
-                // Increment the count of visible rows
-                visibleRowCount++;
-            } else {
-                row.style.display = 'none';
-                // Hide the details row as well
-                const detailsRow = document.querySelector(`.details-row[data-id='${eventId}']`);
-                detailsRow.style.display = 'none'; // Hide the details row
-            }
-        }
-    });
-
-    // Update the visible row count
-    document.getElementById('rowCount').textContent = visibleRowCount;
-}
-
-document.getElementById('dateHeader').addEventListener('click', () => {
-    // Toggle the sorting direction for next click
-    sortAscending = !sortAscending;
-
-    // Re-load the table with sorted data
-    loadEventsTable(eventsData);
+    fetch(eventTypesFile).then(res => res.text()),
+    fetch(eventsArtistsVenuesFile).then(res => res.text()),
+    fetch(artistsFile).then(res => res.text()),
+    fetch(venuesFile).then(res => res.text()),
+    fetch(eventsFile).then(res => res.text())
+]).then(([types, eav, artists, venues, events]) => {
+    eventTypesData = Papa.parse(types, { header: true, delimiter: ';' }).data.map(clean);
+    eventsArtistsVenuesData = Papa.parse(eav, { header: true, delimiter: ';' }).data.map(clean);
+    artistsData = Papa.parse(artists, { header: true, delimiter: ';' }).data.map(clean);
+    venuesData = Papa.parse(venues, { header: true, delimiter: ';' }).data.map(clean);
+    eventsData = Papa.parse(events, { header: true, delimiter: ';' }).data.map(clean);
+    loadTable(eventsData);
 });
 
+function clean(row) {
+    return Object.fromEntries(Object.entries(row).map(([k, v]) => [k, (v || "").trim()]));
+}
 
+function loadTable(data) {
+    const tbody = document.getElementById('eventTableBody');
+    tbody.innerHTML = '';
+    data.sort((a, b) => sortAsc ? a.Date.localeCompare(b.Date) : b.Date.localeCompare(a.Date));
+
+    data.forEach(event => {
+        if(!event.id) return;
+        const type = eventTypesData.find(t => t.id == event.type);
+        const tr = document.createElement('tr');
+        tr.className = 'event-row';
+        tr.setAttribute('data-id', event.id);
+        tr.innerHTML = `<td>${event.Date}</td><td><strong>${event.title}</strong></td><td>${type ? type.type : ''}</td><td>${event.Rate}/10</td>`;
+
+        const dr = document.createElement('tr');
+        dr.className = 'details-row';
+        dr.style.display = 'none';
+        dr.setAttribute('data-id', event.id);
+        dr.innerHTML = `
+            <td colspan="4">
+                <div class="expand-container">
+                    <div id="imgCont-${event.id}" class="image-box" style="display:none;" onclick="openModal(this)">
+                        <img id="img-${event.id}" class="event-hero-img">
+                    </div>
+                    <div class="info-box">
+                        <h3>Artists</h3>
+                        <ul id="art-${event.id}" class="artist-list"></ul>
+                        <h3>Location</h3>
+                        <p id="ven-${event.id}" class="venue-text"></p>
+                    </div>
+                </div>
+            </td>`;
+        tbody.appendChild(tr);
+        tbody.appendChild(dr);
+        tr.onclick = (e) => {
+            // Prevent expanding/collapsing if we clicked the image container directly
+            if(!e.target.closest('.image-box')) toggle(event.id);
+        };
+    });
+    document.getElementById('rowCount').textContent = data.length;
+}
+
+function toggle(id) {
+    const dr = document.querySelector(`.details-row[data-id='${id}']`);
+    const img = document.getElementById(`img-${id}`);
+    const cont = document.getElementById(`imgCont-${id}`);
+
+    if (dr.style.display === 'none') {
+        if (!img.src || img.src === window.location.href) {
+            cont.style.display = 'block';
+            const extensions = ['png', 'webp', 'jpeg', 'JPG', 'PNG', 'gif'];
+            img.onerror = () => tryNext(img, id, extensions);
+            img.src = `tables/EventImages/${id}.jpg`;
+        }
+
+        const eav = eventsArtistsVenuesData.filter(r => r.eventid == id);
+        const list = document.getElementById(`art-${id}`);
+        list.innerHTML = '';
+        eav.forEach(row => {
+            const a = artistsData.find(art => art.id == row.artistid);
+            if(a) {
+                const li = document.createElement('li');
+                const star = row.headliner == 1 ? '<span style="color:#f1c40f;">&#9733;</span> ' : '';
+                li.innerHTML = `${star}${a.Name}`;
+                list.appendChild(li);
+            }
+        });
+
+        const v = venuesData.find(ven => eav[0] && ven.id == eav[0].venueid);
+        if(v) document.getElementById(`ven-${id}`).innerHTML = `<strong>${v.name}</strong><br>${v.City}, ${v.Country}`;
+        dr.style.display = '';
+    } else {
+        dr.style.display = 'none';
+    }
+}
+
+function tryNext(el, id, exts) {
+    if (exts.length === 0) {
+        document.getElementById(`imgCont-${id}`).style.display = 'none';
+        return;
+    }
+    el.src = `tables/EventImages/${id}.${exts.shift()}`;
+}
+
+// FULL SCREEN MODAL LOGIC
+function openModal(container) {
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("fullImage");
+    const clickedImg = container.querySelector('img');
+    
+    modal.style.display = "flex";
+    modalImg.src = clickedImg.src;
+}
+
+function closeModal() {
+    document.getElementById("imageModal").style.display = "none";
+}
+
+function filterTable() {
+    const val = document.getElementById('filterInput').value.toLowerCase();
+    const rows = document.querySelectorAll('.event-row');
+    let count = 0;
+    rows.forEach(r => {
+        const match = r.innerText.toLowerCase().includes(val);
+        r.style.display = match ? '' : 'none';
+        const dr = document.querySelector(`.details-row[data-id='${r.getAttribute('data-id')}']`);
+        dr.style.display = 'none';
+        if(match) count++;
+    });
+    document.getElementById('rowCount').textContent = count;
+}
