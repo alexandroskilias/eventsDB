@@ -37,7 +37,7 @@ function loadTable(data) {
         const tr = document.createElement('tr');
         tr.className = 'event-row';
         tr.setAttribute('data-id', event.id);
-        tr.innerHTML = `<td>${event.Date}</td><td><strong>${event.title}</strong></td><td>${type ? type.type : ''}</td><td>${event.Rate}/10</td>`;
+        tr.innerHTML = `<td>${event.Date}</td><td><strong>${event.title}</strong></td><td>${type ? type.type : ''}</td><td>${event.Rate}/5</td>`;
 
         const dr = document.createElement('tr');
         dr.className = 'details-row';
