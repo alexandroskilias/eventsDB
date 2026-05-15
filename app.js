@@ -75,7 +75,7 @@ function toggle(id) {
     if (dr.style.display === 'none') {
         if (!img.src || img.src === window.location.href) {
             cont.style.display = 'block';
-            const extensions = ['png', 'webp', 'jpeg', 'JPG', 'PNG', 'gif'];
+            const extensions = ['png', 'webp', 'jpeg', 'JPG', 'avif', 'PNG', 'gif'];
             img.onerror = () => tryNext(img, id, extensions);
             img.src = `tables/EventImages/${id}.jpg`;
         }
