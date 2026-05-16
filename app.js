@@ -77,7 +77,6 @@ function toggle(id, forceState) {
     const img = document.getElementById(`img-${id}`);
     const cont = document.getElementById(`imgCont-${id}`);
 
-    // Determine target display state based on optional force parameter or current display style
     const targetState = forceState !== undefined ? forceState : (dr.style.display === 'none' ? 'show' : 'hide');
 
     if (targetState === 'show') {
@@ -137,19 +136,29 @@ function filterTable() {
 
     rows.forEach(r => {
         const id = r.getAttribute('data-id');
+        
+        // 1. Check main row text (ID, Date, Title, Type, Rating)
         const rowText = r.innerText.toLowerCase();
 
+        // 2. Fetch artist names for this event
         const matchingEAV = eventsArtistsVenuesData.filter(eav => eav.eventid == id);
         const artistNames = matchingEAV.map(eav => {
             const artist = artistsData.find(a => a.id == eav.artistid);
             return artist ? artist.Name.toLowerCase() : '';
         });
 
+        // 3. Fetch venue information for this event (matching layout logic)
+        const venueRecord = venuesData.find(ven => matchingEAV[0] && ven.id == matchingEAV[0].venueid);
+        const venueName = venueRecord ? venueRecord.name.toLowerCase() : '';
+
+        // 4. Evaluate if search matches row details, artists, OR the venue name
         const matchesRowText = rowText.includes(val);
         const matchesArtist = artistNames.some(name => name.includes(val));
+        const matchesVenue = venueName.includes(val);
 
-        const isMatch = matchesRowText || matchesArtist;
+        const isMatch = matchesRowText || matchesArtist || matchesVenue;
 
+        // 5. Toggle visibility
         r.style.display = isMatch ? '' : 'none';
         
         const dr = document.querySelector(`.details-row[data-id='${id}']`);
@@ -164,7 +173,6 @@ function filterTable() {
     document.getElementById('rowCount').textContent = count;
 }
 
-// NEW FUNCTION: Handles expanding and collapsing everything at once
 function toggleAllRows() {
     const visibleRows = document.querySelectorAll('.event-row:not([style*="display: none"])');
     const btn = document.getElementById('toggleAllBtn');
