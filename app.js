@@ -6,6 +6,7 @@ const venuesFile = 'tables/venues.csv';
 
 let eventsData = [], eventTypesData = [], eventsArtistsVenuesData = [], artistsData = [], venuesData = [];
 let sortAsc = false;
+let allExpanded = false; // Tracks global expand/collapse state
 
 Promise.all([
     fetch(eventTypesFile).then(res => res.text()),
@@ -31,20 +32,25 @@ function loadTable(data) {
     tbody.innerHTML = '';
     data.sort((a, b) => sortAsc ? a.Date.localeCompare(b.Date) : b.Date.localeCompare(a.Date));
 
+    // Reset button state whenever table reloads/resorts
+    allExpanded = false;
+    const btn = document.getElementById('toggleAllBtn');
+    if(btn) btn.textContent = "Expand All";
+
     data.forEach(event => {
         if(!event.id) return;
         const type = eventTypesData.find(t => t.id == event.type);
         const tr = document.createElement('tr');
         tr.className = 'event-row';
         tr.setAttribute('data-id', event.id);
-        tr.innerHTML = `<td>${event.Date}</td><td><strong>${event.title}</strong></td><td>${type ? type.type : ''}</td><td>${event.Rate}/5</td>`;
+        tr.innerHTML = `<td><code>#${event.id}</code></td><td>${event.Date}</td><td><strong>${event.title}</strong></td><td>${type ? type.type : ''}</td><td>${event.Rate}/5</td>`;
 
         const dr = document.createElement('tr');
         dr.className = 'details-row';
         dr.style.display = 'none';
         dr.setAttribute('data-id', event.id);
         dr.innerHTML = `
-            <td colspan="4">
+            <td colspan="5">
                 <div class="expand-container">
                     <div id="imgCont-${event.id}" class="image-box" style="display:none;" onclick="openModal(this)">
                         <img id="img-${event.id}" class="event-hero-img">
@@ -60,19 +66,21 @@ function loadTable(data) {
         tbody.appendChild(tr);
         tbody.appendChild(dr);
         tr.onclick = (e) => {
-            // Prevent expanding/collapsing if we clicked the image container directly
             if(!e.target.closest('.image-box')) toggle(event.id);
         };
     });
     document.getElementById('rowCount').textContent = data.length;
 }
 
-function toggle(id) {
+function toggle(id, forceState) {
     const dr = document.querySelector(`.details-row[data-id='${id}']`);
     const img = document.getElementById(`img-${id}`);
     const cont = document.getElementById(`imgCont-${id}`);
 
-    if (dr.style.display === 'none') {
+    // Determine target display state based on optional force parameter or current display style
+    const targetState = forceState !== undefined ? forceState : (dr.style.display === 'none' ? 'show' : 'hide');
+
+    if (targetState === 'show') {
         if (!img.src || img.src === window.location.href) {
             cont.style.display = 'block';
             const extensions = ['png', 'webp', 'jpeg', 'JPG', 'avif', 'PNG', 'gif'];
@@ -109,7 +117,6 @@ function tryNext(el, id, exts) {
     el.src = `tables/EventImages/${id}.${exts.shift()}`;
 }
 
-// FULL SCREEN MODAL LOGIC
 function openModal(container) {
     const modal = document.getElementById("imageModal");
     const modalImg = document.getElementById("fullImage");
@@ -130,32 +137,44 @@ function filterTable() {
 
     rows.forEach(r => {
         const id = r.getAttribute('data-id');
-        
-        // 1. Check main row text (Date, Title, Type, Rating)
         const rowText = r.innerText.toLowerCase();
 
-        // 2. Map and match across data arrays to find the hidden artists
         const matchingEAV = eventsArtistsVenuesData.filter(eav => eav.eventid == id);
         const artistNames = matchingEAV.map(eav => {
             const artist = artistsData.find(a => a.id == eav.artistid);
             return artist ? artist.Name.toLowerCase() : '';
         });
 
-        // 3. Evaluate if search input hits row data OR any artist names
         const matchesRowText = rowText.includes(val);
         const matchesArtist = artistNames.some(name => name.includes(val));
 
         const isMatch = matchesRowText || matchesArtist;
 
-        // 4. Update row visibility
         r.style.display = isMatch ? '' : 'none';
         
-        // Auto-collapse details row to avoid broken layout fragments when filtering
         const dr = document.querySelector(`.details-row[data-id='${id}']`);
         if (dr) dr.style.display = 'none';
 
         if (isMatch) count++;
     });
 
+    // Reset global toggle state on filtering
+    allExpanded = false;
+    document.getElementById('toggleAllBtn').textContent = "Expand All";
     document.getElementById('rowCount').textContent = count;
+}
+
+// NEW FUNCTION: Handles expanding and collapsing everything at once
+function toggleAllRows() {
+    const visibleRows = document.querySelectorAll('.event-row:not([style*="display: none"])');
+    const btn = document.getElementById('toggleAllBtn');
+    
+    allExpanded = !allExpanded;
+    
+    visibleRows.forEach(r => {
+        const id = r.getAttribute('data-id');
+        toggle(id, allExpanded ? 'show' : 'hide');
+    });
+
+    btn.textContent = allExpanded ? "Collapse All" : "Expand All";
 }
