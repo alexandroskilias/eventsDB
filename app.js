@@ -127,12 +127,35 @@ function filterTable() {
     const val = document.getElementById('filterInput').value.toLowerCase();
     const rows = document.querySelectorAll('.event-row');
     let count = 0;
+
     rows.forEach(r => {
-        const match = r.innerText.toLowerCase().includes(val);
-        r.style.display = match ? '' : 'none';
-        const dr = document.querySelector(`.details-row[data-id='${r.getAttribute('data-id')}']`);
-        dr.style.display = 'none';
-        if(match) count++;
+        const id = r.getAttribute('data-id');
+        
+        // 1. Check main row text (Date, Title, Type, Rating)
+        const rowText = r.innerText.toLowerCase();
+
+        // 2. Map and match across data arrays to find the hidden artists
+        const matchingEAV = eventsArtistsVenuesData.filter(eav => eav.eventid == id);
+        const artistNames = matchingEAV.map(eav => {
+            const artist = artistsData.find(a => a.id == eav.artistid);
+            return artist ? artist.Name.toLowerCase() : '';
+        });
+
+        // 3. Evaluate if search input hits row data OR any artist names
+        const matchesRowText = rowText.includes(val);
+        const matchesArtist = artistNames.some(name => name.includes(val));
+
+        const isMatch = matchesRowText || matchesArtist;
+
+        // 4. Update row visibility
+        r.style.display = isMatch ? '' : 'none';
+        
+        // Auto-collapse details row to avoid broken layout fragments when filtering
+        const dr = document.querySelector(`.details-row[data-id='${id}']`);
+        if (dr) dr.style.display = 'none';
+
+        if (isMatch) count++;
     });
+
     document.getElementById('rowCount').textContent = count;
 }
