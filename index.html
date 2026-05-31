@@ -12,9 +12,14 @@
         .controls { max-width: 1000px; margin: 0 auto 20px auto; display: flex; align-items: center; gap: 15px; }
         input { padding: 12px; flex-grow: 1; border: 1px solid #ccc; border-radius: 8px; font-size: 16px; }
         
-        /* Styled Toggle Button */
+        /* Styled Toggle Buttons */
         .btn { padding: 12px 20px; background: var(--primary); color: white; border: none; border-radius: 8px; font-size: 14px; font-weight: bold; cursor: pointer; transition: background 0.2s; white-space: nowrap; }
         .btn:hover { background: #2980b9; }
+
+        /* Secondary State Button for Filter */
+        .btn-secondary { background: #7f8c8d; }
+        .btn-secondary:hover { background: #95a5a6; }
+        .btn-active { background: #e74c3c !important; } /* Highlights Red when active */
 
         table { width: 100%; max-width: 1000px; margin: 0 auto; border-collapse: collapse; background: white; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-radius: 12px; overflow: hidden; }
         th, td { padding: 15px; text-align: left; border-bottom: 1px solid #edf2f7; }
@@ -69,6 +74,7 @@
 
     <div class="controls">
         <input type="text" id="filterInput" placeholder="Search gigs..." onkeyup="filterTable()">
+        <button id="noImageBtn" class="btn btn-secondary" onclick="toggleNoImage_Filter()">Show No Image Only</button>
         <button id="toggleAllBtn" class="btn" onclick="toggleAllRows()">Expand All</button>
         <div>Entries: <strong id="rowCount">0</strong></div>
     </div>

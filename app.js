@@ -7,6 +7,7 @@ const venuesFile = 'tables/venues.csv';
 let eventsData = [], eventTypesData = [], eventsArtistsVenuesData = [], artistsData = [], venuesData = [];
 let sortAsc = false;
 let allExpanded = false; // Tracks global expand/collapse state
+let filterNoImage = false; // Tracks if "Show No Image Only" filter is active
 
 Promise.all([
     fetch(eventTypesFile).then(res => res.text()),
@@ -43,6 +44,7 @@ function loadTable(data) {
         const tr = document.createElement('tr');
         tr.className = 'event-row';
         tr.setAttribute('data-id', event.id);
+        tr.setAttribute('data-has-image', 'true'); // Assume true by default until proven missing
         tr.innerHTML = `<td><code>#${event.id}</code></td><td>${event.Date}</td><td><strong>${event.title}</strong></td><td>${type ? type.type : ''}</td><td>${event.Rate}/5</td>`;
 
         const dr = document.createElement('tr');
@@ -68,8 +70,30 @@ function loadTable(data) {
         tr.onclick = (e) => {
             if(!e.target.closest('.image-box')) toggle(event.id);
         };
+
+        // Proactively probe image existence ahead of opening to make filtering viable
+        verifyImageExists(event.id, tr);
     });
-    document.getElementById('rowCount').textContent = data.length;
+    
+    // Run filter matching layout rules
+    filterTable();
+}
+
+// Background validation checker so filter status updates instantly 
+function verifyImageExists(id, rowElement) {
+    const testerImg = new Image();
+    const extensions = ['png', 'webp', 'jpeg', 'JPG', 'avif', 'PNG', 'gif'];
+    
+    testerImg.onerror = () => {
+        if (extensions.length === 0) {
+            rowElement.setAttribute('data-has-image', 'false');
+            // If active filter requires no image, make sure it reflects change dynamically
+            if (filterNoImage) filterTable(); 
+            return;
+        }
+        testerImg.src = `tables/EventImages/${id}.${extensions.shift()}`;
+    };
+    testerImg.src = `tables/EventImages/${id}.jpg`;
 }
 
 function toggle(id, forceState) {
@@ -111,6 +135,8 @@ function toggle(id, forceState) {
 function tryNext(el, id, exts) {
     if (exts.length === 0) {
         document.getElementById(`imgCont-${id}`).style.display = 'none';
+        const mainRow = document.querySelector(`.event-row[data-id='${id}']`);
+        if (mainRow) mainRow.setAttribute('data-has-image', 'false');
         return;
     }
     el.src = `tables/EventImages/${id}.${exts.shift()}`;
@@ -129,6 +155,20 @@ function closeModal() {
     document.getElementById("imageModal").style.display = "none";
 }
 
+function toggleNoImage_Filter() {
+    const btn = document.getElementById('noImageBtn');
+    filterNoImage = !filterNoImage;
+    
+    if (filterNoImage) {
+        btn.classList.add('btn-active');
+        btn.textContent = "Showing No Image Only";
+    } else {
+        btn.classList.remove('btn-active');
+        btn.textContent = "Show No Image Only";
+    }
+    filterTable();
+}
+
 function filterTable() {
     const val = document.getElementById('filterInput').value.toLowerCase();
     const rows = document.querySelectorAll('.event-row');
@@ -136,6 +176,7 @@ function filterTable() {
 
     rows.forEach(r => {
         const id = r.getAttribute('data-id');
+        const hasImageAttr = r.getAttribute('data-has-image');
         
         // 1. Check main row text (ID, Date, Title, Type, Rating)
         const rowText = r.innerText.toLowerCase();
@@ -156,9 +197,14 @@ function filterTable() {
         const matchesArtist = artistNames.some(name => name.includes(val));
         const matchesVenue = venueName.includes(val);
 
-        const isMatch = matchesRowText || matchesArtist || matchesVenue;
+        let isMatch = matchesRowText || matchesArtist || matchesVenue;
 
-        // 5. Toggle visibility
+        // 5. Additional Image filter rule
+        if (filterNoImage && hasImageAttr !== 'false') {
+            isMatch = false;
+        }
+
+        // 6. Toggle visibility
         r.style.display = isMatch ? '' : 'none';
         
         const dr = document.querySelector(`.details-row[data-id='${id}']`);
@@ -169,7 +215,8 @@ function filterTable() {
 
     // Reset global toggle state on filtering
     allExpanded = false;
-    document.getElementById('toggleAllBtn').textContent = "Expand All";
+    const toggleBtn = document.getElementById('toggleAllBtn');
+    if (toggleBtn) toggleBtn.textContent = "Expand All";
     document.getElementById('rowCount').textContent = count;
 }
 
