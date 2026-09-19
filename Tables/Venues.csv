@@ -234,7 +234,7 @@ id;name;Capacity;City;Country
 312;Hampton Court Palace;0;London;UK
 313;Beckenham Place Park;0;London;UK
 314;Damyns Hall Aerodrome;0;London;UK
-315;Apps Court Farm;0;London;UK
+315;Apps Court Farm;0;Walton On Thames;UK
 316;Olivier Theatre [National Theatre];0;London;UK
 317;The Vanguard Theatre (Camden Stables Market);0;London;UK
 318;Theatro sofouli;0;Thessaloniki;Greece
@@ -305,3 +305,5 @@ id;name;Capacity;City;Country
 384;Questors Theatre;0;London;UK
 385;Theatro Kipou;0;Thessaloniki;Greece
 386;Στάδιο Απόλλωνα Καλαμαριάς;0;Thessaloniki;Greece
+387;Courtyard Theatre (Norden Farm Centre for the Arts);0;Maidenhead;UK
+388;The Clapham Grand;0;London;UK
